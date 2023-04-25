@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Air-Cleaning Potential of Algae</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/7e09a95468.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text-center mt-4 px-3 fw-bold title">The Air-Cleaning Potential of Algae</h1>
+    <h3 class="text-center px-3 mb-4 fw-bold title">Lithium - Group 3</h3>
+    
+    <p class="fst-italic text-center px-3" style="color: var(--primary-color);">Press the icons to read different parts of our research.</p>
+    <div class="container mt-1 p-0 border border-2 rounded" id="main">
+        <div class="hstack py-2 ps-3" id="btn-container">
+            <button onclick="showTopic('intro')" class="btn topic-btn active"><i class="fa-solid fa-lightbulb"></i></button>
+            <button onclick="showTopic('algaepower')" class="btn topic-btn"><i class="fa-solid fa-leaf"></i></button>
+            <button onclick="showTopic('action')" class="btn topic-btn"><i class="fa-solid fa-tree-city"></i></button>
+            <button onclick="showTopic('improvement')" class="btn topic-btn"><i class="fa-solid fa-chart-line"></i></button>
+            <button onclick="showTopic('conclusion')" class="btn topic-btn"><i class="fa-solid fa-graduation-cap"></i></button>
+            <button onclick="showTopic('refs')" class="btn topic-btn"><i class="fa-solid fa-book-open"></i></button>
+        </div>
+
+        <h4 class="px-4 pt-3 mb-0 fw-bold" id="main-part"></h4>
+        <h2 class="px-4 pb-2 fw-bold mt-0" id="main-desc"></h2>
+        <p class="px-4 clearfix" id="main-text"></p>
+
+        <div id="topics" style="display: none;">
+            <p id="intro-desc" part="01">Introduction</p>
+            <p id="intro">
+                Pollution is a growing problem within today’s world. Cars, factories, and other human activities release various pollutants into the atmosphere. One of these is <b>carbon dioxide</b>. While this gas is naturally produced by humans and animals, too much of it traps heat into the atmosphere, speeding up global warming and slowly destroying the environment.
+                <br><br>
+                <img src="imgs/Photosynthesis_en.svg" alt="A diagram of photosynthesis." class="img-fluid w-25 rounded float-start me-3">
+                The most common method of removing excess carbon dioxide from the atmosphere is through planting trees. This is because plants and trees can convert carbon dioxide into oxygen in a process called <b>photosynthesis.</b> Photosynthesis is very important in balancing an ecosystem, since plants can absorb the excess carbon dioxide produced by humans and animals and in turn produce oxygen for those humans and animals to breathe. For this reason, plants and trees are described as the "lungs of the earth."
+                <br><br>
+                However, plants aren't the only organisms that photosynthesize. Algae such as phytoplankton in the ocean can also photosynthesize and produce oxygen. In fact, more than half of the oxygen in the planet is produced by marine algae, while plants produce only about 20%, according to the U.S. National Oceanic and Atmospheric Administration (NOAA).
+                <br><br><br>
+                Hopefully, after reading through our research, you will get to see the amazing potential that algae holds in helping the environment. Who knows; maybe future scientists such as you will be able to make innovations with algae in the future!
+            </p>
+            
+            <p id="algaepower-desc" part="02">The Power of Algae</p>
+            <p id="algaepower">
+                The main reason why algae produce so much oxygen is because of their high photosynthetic efficiency. <b>Photosynthetic efficiency</b> is basically how much light captures and successfully converts into useful products(Park, 2007), including oxygen. They are more efficient at photosynthesis because they have more pigments that capture solar energy and are better at concentrating carbon dioxide (Ma et al., 2023).
+                The result of this is that algae have a photosynthetic efficiency of 10-20%, while plants have an efficiency of about 1-2%. That means algae can produce 10x more oxygen than plants do!
+                <br><br>
+                Algae also have several other benefits. They are more tolerant of carbon dioxide, meaning that they can be used in highly polluted areas. They have low light intensity requirements, they are not as constrained by land as plants are, and do not require herbicides or pesticides. Algae also grow at incredible rates—some species can double their growth in just 3.5 hours!
+            </p>
+            
+            <p id="action-desc" part="03">Algae In Action</p>
+            <p id="action">A group of scientists from the University of Belgrade in Serbia have recently made an innovation that could prove the potential of algae in cleaning the atmosphere. Dubbed by the Internet as "liquid trees", LIQUID3 is a "photo-bio reactor" that uses algae to clean the atmosphere, especially in highly polluted cities such as the Serbian capital of Belgrade. It is meant to be an innovative and practical way of reducing pollution, especially in cities where there isn't enough space to plant trees.</p>
+            
+            <p id="improvement-desc" part="04">Room for Improvement</p>
+            <p id="improvement">D, or d, is the fourth letter in the Latin alphabet, used in the modern English alphabet, the alphabets of other western European languages and others worldwide. Its name in English is dee (pronounced /ˈdiː/), plural dees..</p>
+            
+            <p id="conclusion-desc" part="05">Conclusion</p>
+            <p id="conclusion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam quod molestias adipisci quam quidem quia doloremque accusamus quaerat natus error ratione ipsum iste nostrum labore rem, blanditiis officia. Aut.</p>
+            
+            <p id="refs-desc" part="06">References</p>
+            <p id="refs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quia tenetur corrupti ut nesciunt facere illum iure obcaecati necessitatibus ea totam id, sit quaerat. Quia soluta vero totam deleniti at.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
