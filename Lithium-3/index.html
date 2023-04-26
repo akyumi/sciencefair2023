@@ -17,30 +17,11 @@
 </head>
 <body>
     <script>addNavbar();</script>
-    
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <!-- make sure that the banner images in the slideshow are of the same dimensions-->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="imgs/liquid-3.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imgs/pittsburgairport.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imgs/liquid-3_1.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imgs/aerium.png" class="d-block w-100" alt="...">
-          </div>
-
-        </div>
 
     <hgroup class="mt-5 pt-2">
         <h1 class="text-center mt-5 px-3 fw-bold title">The Air-Cleaning Potential of Algae</h1>
         <h3 class="text-center px-3 mb-4 fw-bold title">Lithium - Group 3</h3>
     </hgroup>
-    
     
     <p class="fst-italic text-center px-3" style="color: var(--primary-color);">Press the icons to read different parts of our research.</p>
     <div class="container mt-1 p-0 border border-2 rounded" id="main">
@@ -51,6 +32,7 @@
             <button onclick="showTopic('improvement')" class="btn topic-btn"><i class="fa-solid fa-chart-line"></i></button>
             <button onclick="showTopic('conclusion')" class="btn topic-btn"><i class="fa-solid fa-graduation-cap"></i></button>
             <button onclick="showTopic('refs')" class="btn topic-btn"><i class="fa-solid fa-book-open"></i></button>
+            <button onclick="showTopic('researchers')" class="btn topic-btn"><i class="fa-solid fa-users"></i></button>
         </div>
 
         <h4 class="px-4 pt-3 mb-0 fw-bold" id="main-part"></h4>
@@ -80,31 +62,41 @@
             
             <p id="action-desc" part="03">Algae In Action</p>
             <p id="action">A group of scientists from the University of Belgrade in Serbia have recently made an innovation that could prove the potential of algae in cleaning the atmosphere. <br>
-                <img src="imgs/Photosynthesis_en.svg" alt="A diagram of photosynthesis." class="img-fluid w-25 rounded float-start me-3"><br>
-                Dubbed by the Internet as "liquid trees", LIQUID3 is a "photo-bio reactor" that uses algae to clean the atmosphere, especially in highly polluted cities such as the Serbian capital of Belgrade. It is meant to be an innovative and practical way of reducing pollution, especially in cities where there isn't enough space to plant trees.</p>
+            <img src="imgs/Photosynthesis_en.svg" alt="A diagram of photosynthesis." class="img-fluid w-25 rounded float-start me-3">
+            <br>
+            Dubbed by the Internet as "liquid trees", LIQUID3 is a "photo-bio reactor" that uses algae to clean the atmosphere, especially in highly polluted cities such as the Serbian capital of Belgrade. It is meant to be an innovative and practical way of reducing pollution, especially in cities where there isn't enough space to plant trees.</p>
             
             <p id="improvement-desc" part="04">Room for Improvement</p>
-            <p id="improvement">This technology is new so there is plenty of room for improvements and some restraints such as, the atmospheric indoor air quality can be affected by the quality bought by the device, which is problematic in densely populated cities. 
-                Society alo turned a blind eye in this plant as most of us only plant trees due to its ease of planting. </p>
+            <p id="improvement">
+                This technology is new so there is plenty of room for improvements and some restraints such as, the atmospheric indoor air quality can be affected by the quality bought by the device, which is problematic in densely populated cities. 
+                Society alo turned a blind eye in this plant as most of us only plant trees due to its ease of planting. 
+            </p>
+
             <p id="conclusion-desc" part="05">Conclusion</p>
-            <p id="conclusion">Algae holds a lot of potential in our fight against climate change and greenhouse gases. They produce 10 times more oxygen than plants, and thus capture 10 times more carbon dioxide from the atmosphere. They have several benefits that make them practical for use in highly-polluted urban areas where planting trees is not always feasible. They have already seen use all over the world, and they will be a key part of our fight against climate change in the near future.</p>
+            <p id="conclusion">
+                Algae holds a lot of potential in our fight against climate change and greenhouse gases. They produce 10 times more oxygen than plants, and thus capture 10 times more carbon dioxide from the atmosphere. They have several benefits that make them practical for use in highly-polluted urban areas where planting trees is not always feasible. They have already seen use all over the world, and they will be a key part of our fight against climate change in the near future.
+            </p>
+
             <p id="refs-desc" part="06">References</p>
-            
-    <p id="refs">
-        Castim, D. (2022, January 6). A Liquid Tree? Scientists in Serbia Make Incredible Innovation - World Bio Market Insights. World Bio Market Insights. <a href="https://worldbiomarketinsights.com/a-liquid-tree-scientists-in-serbia-make-incredible-innovation/">https://worldbiomarketinsights.com/a-liquid-tree-scientists-in-serbia-make-incredible-innovation/</a> 
-        <br>
-        Kite-Powell, J. (2022, October 10). Pittsburgh International Airport Just Installed A Giant Algae Air Purifier. Forbes. <a href="https://www.forbes.com/sites/jenniferhicks/2022/10/09/pittsburgh-international-airport-just-installed-a-giant-algae-air-purifier/amp/">https://www.forbes.com/sites/jenniferhicks/2022/10/09/pittsburgh-international-airport-just-installed-a-giant-algae-air-purifier/amp/</a>
-        <br>
-        Ma, W., Liu, L., Wang, Q., Duanmu, D., & Qiu, B. (2023). Editorial: Algal photosynthesis. Frontiers in Microbiology, 13. <a href="https://doi.org/10.3389/fmicb.2022.1112301">https://doi.org/10.3389/fmicb.2022.1112301</a>
-        <br>
-        NOAA. (2021, February 26). How much oxygen comes from the ocean? oceanservice.noaa.gov. <a href="https://oceanservice.noaa.gov/facts/ocean-oxygen.html">https://oceanservice.noaa.gov/facts/ocean-oxygen.html</a>
-        <br>
-        Park, C. (2007). A Dictionary of Environment and Conservation. Oxford University Press, USA.
-        <br>
-        Singh, U. P., & Ahluwalia, A. S. (2013). Microalgae: a promising tool for carbon sequestration. Mitigation and Adaptation Strategies for Global Change, 18(1), 73–95. <a href="https://doi.org/10.1007/s11027-012-9393-3">//doi.org/10.1007/s11027-012-9393-3 </a>
-        <br>
-        Mata, T. M., Oliveira, G. M., Monteiro, H., Silva, G. V., Caetano, N. S., & Martins, A. A. (2021). Indoor air quality improvement using nature-based solutions: Design Proposals to greener cities. International Journal of Environmental Research and Public Health, 18(16), 8472. <a href="">https://doi.org/10.3390/ijerph18168472</a>
-    </p></div></div>
+            <p id="refs">
+                Castim, D. (2022, January 6). A Liquid Tree? Scientists in Serbia Make Incredible Innovation - World Bio Market Insights. World Bio Market Insights. <a href="https://worldbiomarketinsights.com/a-liquid-tree-scientists-in-serbia-make-incredible-innovation/">https://worldbiomarketinsights.com/a-liquid-tree-scientists-in-serbia-make-incredible-innovation/</a> 
+                <br>
+                Kite-Powell, J. (2022, October 10). Pittsburgh International Airport Just Installed A Giant Algae Air Purifier. Forbes. <a href="https://www.forbes.com/sites/jenniferhicks/2022/10/09/pittsburgh-international-airport-just-installed-a-giant-algae-air-purifier/amp/">https://www.forbes.com/sites/jenniferhicks/2022/10/09/pittsburgh-international-airport-just-installed-a-giant-algae-air-purifier/amp/</a>
+                <br>
+                Ma, W., Liu, L., Wang, Q., Duanmu, D., & Qiu, B. (2023). Editorial: Algal photosynthesis. Frontiers in Microbiology, 13. <a href="https://doi.org/10.3389/fmicb.2022.1112301">https://doi.org/10.3389/fmicb.2022.1112301</a>
+                <br>
+                NOAA. (2021, February 26). How much oxygen comes from the ocean? oceanservice.noaa.gov. <a href="https://oceanservice.noaa.gov/facts/ocean-oxygen.html">https://oceanservice.noaa.gov/facts/ocean-oxygen.html</a>
+                <br>
+                Park, C. (2007). A Dictionary of Environment and Conservation. Oxford University Press, USA.
+                <br>
+                Singh, U. P., & Ahluwalia, A. S. (2013). Microalgae: a promising tool for carbon sequestration. Mitigation and Adaptation Strategies for Global Change, 18(1), 73–95. <a href="https://doi.org/10.1007/s11027-012-9393-3">//doi.org/10.1007/s11027-012-9393-3 </a>
+                <br>
+                Mata, T. M., Oliveira, G. M., Monteiro, H., Silva, G. V., Caetano, N. S., & Martins, A. A. (2021). Indoor air quality improvement using nature-based solutions: Design Proposals to greener cities. International Journal of Environmental Research and Public Health, 18(16), 8472. <a href="">https://doi.org/10.3390/ijerph18168472</a>
+            </p>
+
+            <p id="researchers-desc" part="07">Meet the Researchers</p>
+            <p id="researchers">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur obcaecati, ullam voluptas alias voluptate magni dolorum nemo accusamus fuga, commodi molestias quo, exercitationem suscipit! Sequi laboriosam ipsam earum accusantium praesentium?</p>
+        </div>
     </div>
 
     <script src="script.js"></script>
