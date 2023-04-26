@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color) !important;
     font-family: 'DM Sans', sans-serif;
 }
 
