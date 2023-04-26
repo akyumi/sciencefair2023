@@ -1,0 +1,31 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.color-layer{
+    position: fixed;
+    z-index: -100;
+}
+
+.carousel{
+    z-index: -99;
+}
+.carousel-item{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: var(--bs-danger-text-emphasis);
+    background-color: #3d0a91;
+}
