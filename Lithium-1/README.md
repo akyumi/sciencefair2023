@@ -1,3 +1,0 @@
-# sciencefair2023
-
-Work in Progress...
