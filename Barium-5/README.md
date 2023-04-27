@@ -1,6 +1,6 @@
-#Barium Group 5
+# Barium Group 5
 
-##Members
+## Members
 - Revyel Rodriguez
 - Knight Arensol
 - Merielle Cocjin
