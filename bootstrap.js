@@ -10,6 +10,4 @@ async function addNavbar() {
   const html = await resp.text();
   document.body.insertAdjacentHTML("afterbegin", html);
 }
-
-
 //# sourceMappingURL=bootstrap.bundle.min.js.map
