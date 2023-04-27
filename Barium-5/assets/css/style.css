@@ -203,50 +203,8 @@ h6 {
   height: 70px;
 }
 
-@media (max-width: 992px) {
-  #header {
-    height: 60px;
-  }
-}
 
-#header.fixed-top {
-  background: rgba(0, 0, 0, 0.85);
-}
 
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-#header .logo a {
-  color: #fff;
-}
-
-#header .logo img {
-  height: 50px;
-}
-
-.scrolled-offset {
-  margin-top: 70px;
-}
-
-@media (max-width: 992px) {
-  .scrolled-offset {
-    margin-top: 60px;
-  }
-}
-
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
 .navbar {
   padding: 0;
   margin: auto;
@@ -397,6 +355,7 @@ section {
   margin-bottom: 20px;
 }
 
+
 /* Get Started Section
 --------------------------------*/
 #about {
@@ -407,6 +366,8 @@ section {
 #about .about-img {
   overflow: hidden;
   margin: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 #about .about-img img {
@@ -443,6 +404,12 @@ section {
 #about .about-text:last-child {
   margin-bottom: 0;
 }
+
+.parimgl {
+  margin: 40px 40px 0 0 ;
+}
+
+
 
 /* Services Section
 --------------------------------*/
