@@ -1,6 +1,6 @@
 # Science Fair 2023 Website
 ## Add a Group Folder
-1. Create or upload your group's research folder inside the [sciencefair2023](https://github.com/SMC-26/sciencefair2023/) repository. It should be named in <SectionName-GroupNumber> format. For example: `Unobtainium-420`.
+1. Create or upload your group's research folder inside the [sciencefair2023](https://github.com/SMC-26/sciencefair2023/) repository. It should be named in SectionName-GroupNumber format. For example: `Unobtainium-420`.
 
 Work in Progress...
 
