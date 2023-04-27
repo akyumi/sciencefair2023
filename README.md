@@ -3,67 +3,44 @@
 1. Get invited into the [SMC-26](https://github.com/SMC-26) GitHub Organization. Consult your CS3 teacher or your section representative on how to get invited.
 2. Create or upload your group's research folder inside the [sciencefair2023](https://github.com/SMC-26/sciencefair2023/) repository. It should be named in SectionName-GroupNumber format. For example: `Unobtainium-420`.
 3. Insert your web page files in your group's folder. Make sure to name it `index.html` otherwise you might encounter some issues.
-4. Comm
+## Adding the Website Navbar
+To promote a uniform experience across all of the research pages published through this repository, a universal navigation bar will be mandatory to maintain seamless acess throughout the whole site. In order to make this work for your group's webpage, follow these instructions:
+
+1. As the navigation bar is dependent on the use of Bootstrap for it to work properly, you need to import both the CSS and Javascript Files.
+For the Bootstrap CSS, insert the code below inside your web page's `<head>`:
+```md
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+```
+For the Bootstrap JS, the code below should be inserted a line before the `</body>`:
+```md
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+```
+2. Another custom Javascript file is to be inserted, this time just below the Bootstrap CSS you just applied. Its purpose is to preload an HTML file containing the navigation bar and apply it to your own web page.
+```md
+<script src="../js/pageloader.js"></script>
+```
+3. Lastly, in your HTML file, insert the Javascript Function call to add the navigation bar. The ideal place to insert the code would be just below the opening `<body>` element.
+```md
+<script>addNavbar();</script>
+```
+### In summary...
+The file structure with these modifications should look like this:
+```md
+<!DOCTYPE html>
+<html>
+  <head>
+      ...
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="../js/pageloader.js"></script>
+      ...
+  </head>
+  <body>
+      <script>addNavbar();</script>
+      ...
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+```
+A project with a working navbar is shown [here.](https://smc-26.github.io/sciencefair2023/Lithium-3/)
 
 Work in Progress...
-
-# Malayan Arcade website
-## Add a Club
-1. Make a folder inside the `content/clubs` directory. The folder name should not contain spaces. Use a hyphen/dash (`-`) to separate the words. If your club's name is "Club XYZ", your folder name should be "club-xyz" (without the quotes).
-2. Inside the folder, add the club's logo. Rename it to `logo.png` for PNG files or `logo.jpg` for JPEG files. If your logo has a different format or want to keep the name, see step 3.
-3. In the same folder, create a `index.md` file with the following format:
-```md
-+++
-title = "Club XYZ"
-
-[extra]
-logo = "logo.png"
-slogan = "Hello World!"
-moderators = ["Juan de la Cruz"]
-poster = "poster.jpg"
-
-[extra.links]
-"Another Link" = "google.com"
-
-[extra.social_links]
-facebook = "https://facebook.com/malayanmindanao"
-+++
-
-Club description goes here!
-```
-- `title` is the where you put the club name.
-### `[extra]` Section
-- `slogan` is the club tagline/slogan.
-- `moderators` is an array in which where you will specify the names of the club moderators.
-- `logo` is where you will specify the file name of your logo.
-- `poster` is where you will specify the file name of your poster. This is optional.
-- The `[extra.links]` section is where you will put your links. Link entries should be `"<link name>" = "<url>"`.
-- The `[extra.social_links]` is where you will put your clubs social media links. Link entries should be `<social media site> = "<url>"`
-
-## Development
-To run the website locally, install [Zola](https://www.getzola.org/documentation/getting-started/installation/) first.
-
-Afterwards, open the terminal pointing to this folder and execute:
-```
-# Execute this command only if you are making changes to
-# the website and want to see the contents immediately.
-zola serve
-```
-
-To generate the website, execute:
-```
-# Execute this command only if you want to upload and publish it. 
-# For Github, this is not required. See "Deployment on Github Pages".
-zola build
-```
-
-## Deployment on Github Pages
-The repo includes a [script](.github/workflows/ci.yml) that instructs Github to generate and publish the build on every change. No manual intervention is required.
-
-### Setup
-If you deploy it on Github for the first time, you need to do the following:
-1. Generate a personal token at https://github.com/settings/tokens. Make sure "repo" is checked. Click "Generate Token" and Copy the contents of the token afterwards.
-2. Create a secret by going to repo settings and select "Secrets". Click "New Repository Secret" on the upper corner and you'll be presented a form. The name should be "TOKEN" (without quotes) and the value should be the token you have copied earlier. Press "Add Secret" to save the secret.
-3. Go back again to repo settings and select "Pages". In the branch dropdown of the source section, select "gh-pages" and press "Save". Wait for a few seconds to see the changes.
-
-These steps are only done once. Once you make changes to the site/repo, Github will automatically build and publish the website.
