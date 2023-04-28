@@ -9,6 +9,10 @@ body{
     width: 5px;
 }
 
+header{
+	margin: auto;
+}
+
 header, footer{
     background-color: lightgreen;
     padding: 1em;
