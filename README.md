@@ -1,4 +1,5 @@
 # Science Fair 2023 Website
+link to home page: https://smc-26.github.io/sciencefair2023/
 ## Add a Group Folder
 1. Get invited into the [SMC-26](https://github.com/SMC-26) GitHub Organization. Consult your CS3 teacher or your section representative on how to get invited.
 2. Create or upload your group's research folder inside the [sciencefair2023](https://github.com/SMC-26/sciencefair2023/) repository. It should be named in SectionName-GroupNumber format. For example: `Unobtainium-420`.
