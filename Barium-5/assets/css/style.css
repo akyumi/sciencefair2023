@@ -46,6 +46,9 @@ h6 {
   padding: 0;
 }
 
+hr {
+  margin: 0;
+}
 
 /*--------------------------------------------------------------
 # Welcome
@@ -58,11 +61,25 @@ h6 {
   background-size: cover;
 }
 
+@media screen and (min-width: 1920px) {
+  #hero {
+    height: 60vh;
+  }
+}
+
+
+@media screen and (max-width: 1919px) {
+  #hero {
+    height: 70vh;
+  }
+}
+
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
-}
+} 
 
 #hero .hero-logo {
   margin: 20px;
@@ -83,12 +100,25 @@ h6 {
 }
 
 #hero h1 {
-  margin: 30px 0 10px 10%;
+  margin-left: 10%;
   font-weight: 700;
   line-height: 100px;
-  font-size: 500%;
+  font-size: 80px;
   text-transform: uppercase;
   color: #fff;
+}
+
+@media screen and (min-width: 1920px) {
+  #hero h1 {
+    font-size: 80px;
+  }
+}
+
+
+@media screen and (max-width: 1919px) {
+  #hero h1 {
+    font-size: 70px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -100,14 +130,32 @@ h6 {
 
 #hero h2 {
   color: #ccc;
-  margin: 0 0 50px 10%;
-  font-size: 300%;
+  margin: 0 0 0 10% !important;
 }
 
 #hero h2 span {
   color: #fff;
   transition: 0.3s;
   border-bottom: 2px solid #03C4EB;
+}
+
+@media screen and (min-width: 1920px) {
+  #hero h2 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1919px) {
+  #hero h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -126,28 +174,6 @@ h6 {
   display: inline-block;
 }
 
-
-#hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
-  color: #fff;
-}
-
-#hero .btn-get-started:hover {
-  background: none;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#hero .btn-services {
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
-}
 
 
 
@@ -198,6 +224,7 @@ section {
 
 #about .about-img img {
   max-width: 100%;
+  margin: 0 !important;
 }
 
 @media (max-width: 768px) {
@@ -213,6 +240,7 @@ section {
 
 #about .about-content {
   background: #fff;
+  margin: 3rem 0 3rem 0;
 }
 
 #about .about-title {
