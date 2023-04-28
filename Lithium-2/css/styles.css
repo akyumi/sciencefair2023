@@ -5,3 +5,9 @@
     object-fit: cover !important;
     object-position: top !important;
 }
+
+.maintitle {
+    font-family: Roboto, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
