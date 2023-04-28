@@ -10,12 +10,12 @@ body{
 }
 
 header{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 header, footer{
     background-color: lightgreen;
-    padding: 20em;
+    padding: 1em;
     text-align: center;
 }
 article{
