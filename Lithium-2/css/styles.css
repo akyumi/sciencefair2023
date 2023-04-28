@@ -9,7 +9,7 @@ body {
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
-    filter: brightness(8%);
+    filter: brightness(50%);
     z-index: -1;
   }
 
