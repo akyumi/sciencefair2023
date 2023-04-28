@@ -35,4 +35,12 @@ The file structure with these modifications should look like this:
 ```
 A project with a working navbar is shown [here.](https://smc-26.github.io/sciencefair2023/Lithium-3/)
 
+### Broken Navbar (Conflicts)
+
+If you are sure you did all the steps correctly, yet the navigation bar (or even the page) is broken, it means that there is a CSS/JS property call conflict. Most Bootstrap template website files contain customized or personalized versions of the CSS and/or Javascript files. So if this happens look for these things that might cause the problem:
+1. There is a pre-existing navigation bar in the web page.
+2. The properties/functions of the page has modified CSS and/or Javascript files.
+3. Both
+
+TODO: self help troublshooting tomorrow
 Work in Progress...
