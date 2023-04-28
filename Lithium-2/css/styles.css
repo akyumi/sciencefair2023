@@ -5,7 +5,7 @@
 }
 
 .tpcrsltop {
-    height: 300vh !important;
+    max-height: 300px !important;
     object-fit: cover !important;
     object-position: top !important;
 }
