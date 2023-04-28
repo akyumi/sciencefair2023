@@ -1,4 +1,5 @@
 # Science Fair 2023 Website
+link to home page: https://smc-26.github.io/sciencefair2023/
 ## Add a Group Folder
 1. Get invited into the [SMC-26](https://github.com/SMC-26) GitHub Organization. Consult your CS3 teacher or your section representative on how to get invited.
 2. Create or upload your group's research folder inside the [sciencefair2023](https://github.com/SMC-26/sciencefair2023/) repository. It should be named in SectionName-GroupNumber format. For example: `Unobtainium-420`.
@@ -39,8 +40,17 @@ A project with a working navbar is shown [here.](https://smc-26.github.io/scienc
 
 If you are sure you did all the steps correctly, yet the navigation bar (or even the page) is broken, it means that there is a CSS/JS property call conflict. Most Bootstrap template website files contain customized or personalized versions of the CSS and/or Javascript files. So if this happens look for these things that might cause the problem:
 1. There is a pre-existing navigation bar in the web page.
+If there is a pre-existing navbar in your template, kindly remove it.
 2. The properties/functions of the page has modified CSS and/or Javascript files.
+Please do not import the bootstrap CSS from the guide above if you are already using Bootstrap for your template. If you think the Javascript messes up your layout, the code to add the Navigation bar will be posted below so you can add it to your own Javascript files.
+```md
+async function addNavbar() {
+  const resp = await fetch("https://smc-26.github.io/sciencefair2023/navbar.html");
+  const html = await resp.text();
+  document.body.insertAdjacentHTML("afterbegin", html);
+}
+```
 3. Both
 
-TODO: self help troublshooting tomorrow
+
 Work in Progress...
