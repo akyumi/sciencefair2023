@@ -4,3 +4,8 @@
     font-family: 'Roboto', sans-serif !important;
 }
 
+.tpcrsltop {
+    max-height: 300px !important;
+    object-fit: cover !important;
+    object-position: top !important;
+}
