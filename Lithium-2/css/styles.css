@@ -3,6 +3,11 @@
 body {
 }
 
+.carouseltitle{
+    color: white;
+    text-align: right;
+}
+
 
 .tpcrsltop {
     max-height: 300px !important;
