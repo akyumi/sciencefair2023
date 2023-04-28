@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    margin-top: 1em;
+    margin-top: 100px;
 }
 
 header, footer{
@@ -109,6 +109,7 @@ article{
 	height: 31px;
     display: inline-block;
 }
+
 canvas{
     width:  600px;
     height: 400px;
