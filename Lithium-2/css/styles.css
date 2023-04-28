@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
+body {
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    filter: brightness(8%);
+    z-index: -1;
+  }
+
+
 .tpcrsltop {
     max-height: 300px !important;
     object-fit: cover !important;
