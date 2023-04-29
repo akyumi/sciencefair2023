@@ -56,7 +56,6 @@ hr {
 #hero {
   display: table;
   width: 100%;
-  height: 60vh;
   background: url(../img/hero-bg.jpg) top center;
   background-size: cover;
 }
@@ -110,14 +109,14 @@ hr {
 
 @media screen and (min-width: 1920px) {
   #hero h1 {
-    font-size: 80px;
+    font-size: 100px;
   }
 }
 
 
 @media screen and (max-width: 1919px) {
   #hero h1 {
-    font-size: 70px;
+    font-size: 80px;
   }
 }
 
@@ -136,7 +135,22 @@ hr {
 #hero h2 span {
   color: #fff;
   transition: 0.3s;
-  border-bottom: 2px solid #03C4EB;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 20%,
+    rgba(79, 220, 74, 1) 30%,
+    rgba(63, 218, 216, 1) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgba(95, 21, 242, 1) 70%,
+    rgba(186, 12, 248, 1) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  border-image-slice: 1;
 }
 
 @media screen and (min-width: 1920px) {
@@ -174,9 +188,6 @@ hr {
   display: inline-block;
 }
 
-
-
-
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -187,30 +198,124 @@ section {
 }
 
 .section-title {
-  font-size: 2.5vw;
   color: #111;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
+  font-size: 2.5vw;
 }
 
+.section-subtitle {
+  font-size: 2vw;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+}
 
 .section-description {
   text-align: center;
   margin-bottom: 40px;
 }
 
+
+
 .section-title-divider {
-  width: 50px;
-  height: 3px;
-  background: #03C4EB;
+  width: 15vw;
+  height: 0.4vh;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 20%,
+    rgba(79, 220, 74, 1) 30%,
+    rgba(63, 218, 216, 1) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgba(95, 21, 242, 1) 70%,
+    rgba(186, 12, 248, 1) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+  );
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
+.rainbow-text {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 20%,
+    rgba(79, 220, 74, 1) 30%,
+    rgba(63, 218, 216, 1) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgba(95, 21, 242, 1) 70%,
+    rgba(186, 12, 248, 1) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-/* Get Started Section
+.gradient-text-violet {
+  background-image: radial-gradient(circle at 50% 80%, #ff00ff, #b200b2, #550055);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-orange {
+  background-image: radial-gradient(circle at 70% 10%, #ffaf40, #e74c3c, #8c0000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-green {
+  background: radial-gradient(circle at 30% 70%, #91e67f, #1d8348, #004d26);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-blue {
+  background: radial-gradient(circle, #98E2FF 0%, #00BFFF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Intro Section
 --------------------------------*/
+
+.maintitle {
+  padding-bottom: 40px;
+}
+
+.maintitle h4 {
+  font-size: 2vw;
+}
+
+@media screen and (min-width: 1920px) {
+  .maintitle h3 {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 1919px) {
+  .maintitle h3 {
+    font-size: 3vw;
+  }
+}
+
+.maintitle .section-title-divider {
+  margin-top: 40px;
+}
+
+
 #about {
   background: #fff;
   padding: 80px 0;
@@ -247,8 +352,23 @@ section {
 #about .about-title {
   color: #333;
   font-weight: 700;
-  font-size: 28px;
+
 }
+
+
+@media screen and (min-width: 1920px) {
+  .about-content h2 {
+    font-size: 4.5vh;
+  }
+}
+
+@media screen and (max-width: 1919px) {
+  .about-content h2 {
+    font-size: 6vh;
+  }
+}
+
+
 
 #about .about-text {
   line-height: 26px;
@@ -269,72 +389,123 @@ section {
 /* Carousel Section
 --------------------------------*/
 
+
+
+.carousel-container {
+  width: 100%;
+  padding: 2% 15% 0 15%;
+}
+
+.carousel-container h3 {
+  color: white;
+}
+
+.carousel-container p {
+  color: white;
+}
+
+.carousel-container h4 {
+  color: white;
+
+}
+
+
 @media screen and (min-width: 1920px) {
-  .carousel {
-    max-height: 60vh
+  .carousel-container  {
+    height: 60vh;
   }
+  .carousel-container h3 {
+    font-size: 3vw;
+  }  
 }
 
 @media screen and (max-width: 1919px) {
-  .carousel  {
-    max-height: 75vh
+  .carousel-container  {
+    height: 80vh;
   }
+  .carousel-container h3 {
+    font-size: 4vw;
+  }  
+  .carousel-container p {
+    font-size: 1.2vw;
+  }  
+  
+}
+
+.item1 {
+  background-image: url("../img/carousel-1.jpg");
+}
+
+.item2 {
+  background-image: url("../img/carousel-2.jpg");
+}
+
+.item3 {
+  background-image: url("../img/carousel-3.jpg");
 }
 
 
-.carousel-caption {
-  top: 50%;
-  transform: translateY(-50%);
-}
 
-/* demo Section
+/* Showcases Section
 --------------------------------*/
-#demo {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
-  background-size: cover;
-  padding: 80px 0;
+#showcases {
+  padding: 80px 0 60px 0;
 }
 
-#demo .demo-title {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
+#showcases .showcase-item {
+  margin-bottom: 20px;
 }
 
-#demo .demo-text {
-  color: #fff;
-}
-
-#demo .demo-btn-container {
-  text-align: center;
-  padding-top: 20px;
-}
-
-#demo .demo-btn {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 20px;
-  border-radius: 2px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#demo .demo-btn:hover {
+#showcases .showcase-icon {
+  float: left;
   background: #03C4EB;
-  border: 2px solid #03C4EB;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #03C4EB;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
 }
+
+#showcases .showcase-icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+
+#showcases .showcase-item:hover .showcase-icon {
+  background: #fff;
+}
+
+#showcases .showcase-item:hover .showcase-icon i {
+  color: #03C4EB;
+}
+
+#showcases .showcase-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#showcases .showcase-title a {
+  color: #111;
+}
+
+#showcases .showcase-description {
+  margin-left: 80px;
+  line-height: 24px;
+}
+
 
 
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background-size: cover;
   padding: 80px 0 60px 0;
 }
 
