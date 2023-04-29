@@ -101,3 +101,24 @@ nav ul li::after{
     padding: 0;
     display: flex;
 }
+.container{
+    padding: 80px 139px;
+    color: #f6f6f6;
+}
+.subcontainer{
+    background-color: #2B9C3F;
+    padding: 61px 70px;
+    margin-right: 300px;
+}
+h3{
+    font-size: 20px;
+}
+.subcontainer p{
+    font-size: 16px;
+    margin-right: 218px;
+}
+aside img{
+    position: relative;
+    bottom: 340.5px;
+    left: 550px;
+}
