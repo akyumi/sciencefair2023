@@ -3,13 +3,12 @@
 body {
 }
 
-/* Video BG */
 
 header {
     position: relative;
     background-color: black;
-    height:65vh;
-    min-height: 25rem;
+    height: 40vh;
+    min-height: 20rem;
     width: 100%;
     overflow: hidden;
   }
@@ -41,66 +40,16 @@ header {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.65;
+    opacity: 0.5;
     z-index: 1;
   }
-  
-  @media (pointer: coarse) and (hover: none) {
-    header {
-      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-    }
-  
-    header video {
-      display: none;
-    }
-  }
 
-/*          */
-
-
-
-
-
-#maintitle {
-    text-align: right;
-}
-
-.mainname {
+ 
+  .nameanm {
     text-decoration: none;
-    font-size: 24px;
-    font-weight:200;
-    font-style: italic;
-    text-align: right;
-}
-
-/* If the screen size is 1200px wide or more, set the font-size to 80px */
-@media (min-width: 1000px){
-    #maintitle {
-      font-size: 60px;
-      font-weight: 400;
-    }
-  }
-  /* If the screen size is smaller than 1200px, set the font-size to 80px */
-  @media screen and (max-width: 1000px) {
-    #maintitle {
-        padding: 12px 9px 0px 0px;
-      font-size: 35px;
-    }
-    .mainname {
-        padding: 0px 0px 0px 9px;
-      font-size: 20px;
-    }
-    header {
-        height:15vh;
-        min-height: 20rem;
-    }
-  }
-
-.nameanm {
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
     color: white;
+    position: relative;
+    
   }
   
   .nameanm::after {
@@ -114,6 +63,7 @@ header {
     background-color: #0087ca;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
+    padding-bottom: 5px;
   }
   
   .nameanm:hover {
@@ -126,5 +76,13 @@ header {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+  @media only screen (max-width: 317px) {
+    #maintitle{
+        
+    }
+  }
+
+
 
 
