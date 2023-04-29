@@ -1,0 +1,113 @@
+article {
+    margin-top: 50px;
+
+    background-color: #e1d5cb;
+
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    line-height: 2.75;
+}
+
+#container1 {
+    display: inline-flex;
+
+    height: 100%;
+    width: 100%;
+
+    padding: 1em 4em 1em 6em;
+    background-image: linear-gradient(white);
+
+    transition: 1s;
+}
+.sunrise {
+    background-image: linear-gradient(rgb(92, 113, 166), rgb(99, 125, 157), rgb(99, 125, 157), rgb(192, 118, 68), rgb(221, 135, 70));
+}
+.noon{
+    background-image: linear-gradient(white, gray);
+}
+.sunset{
+    background-image: linear-gradient(gray, black);
+}
+.midnight{
+    background-image: linear-gradient(black, gray);
+}
+
+#interactive-bar-div {
+    float: left;
+    display: flex;
+
+    top: 50%;
+    left: 50%;
+    margin: auto;
+
+    height: 100%;
+    width: 50%;
+}
+#interactive-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto;
+}
+.time-button-div {
+    overflow: hidden;
+    margin: 20px 0px;
+
+    height: 38px;
+    width: 35px;
+
+    color: rgba(0, 0, 0, 0);
+
+    transition: all 0.5s ease-out;
+}
+.time-button-div button {
+    height: 35px;
+    width: 35px;
+
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid black;
+    border-radius: 25px;
+}
+.time-button-div:hover {
+    width: 110px;
+
+    cursor: pointer;
+}
+.time-button-div:hover button {
+    background-color: black;
+
+    transition: all 0.5s ease-out;
+}
+.time-button-div:hover span{
+    color: black;
+
+    transition: all 1s ease-out;
+}
+
+#content1 {
+    margin: 5em 6em 5em 2em; 
+}
+h1 { 
+    text-align: center;
+}
+p {
+    margin-bottom: 50px;
+}
+#content1-5 {
+    display: inline-flex;
+
+    height: 50%;
+    width: 100%;
+}
+#content1-5 div {
+    height: 100%;
+    width: 50%;
+}
+#lens-div {
+    height: 10%;
+    width: 10%;
+
+    background-color: blue;
+}
