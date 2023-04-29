@@ -86,6 +86,10 @@ header {
         padding: 12px 9px 0px 0px;
       font-size: 40px;
     }
+    .mainname {
+        padding: 0px 0px 0px 9px;
+      font-size: 20px;
+    }
   }
 
 .nameanm {
