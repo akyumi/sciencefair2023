@@ -77,11 +77,7 @@ header {
     transform-origin: bottom left;
   }
 
-  @media only screen (max-width: 317px) {
-    #maintitle{
-        
-    }
-  }
+  
 
 
 
