@@ -256,30 +256,39 @@ section {
     rgba(255, 0, 0, 1) 100%
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text-violet {
   background-image: radial-gradient(circle at 50% 80%, #ff00ff, #b200b2, #550055);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text-orange {
   background-image: radial-gradient(circle at 70% 10%, #ffaf40, #e74c3c, #8c0000);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text-green {
-  background: radial-gradient(circle at 30% 70%, #91e67f, #1d8348, #004d26);;
+  background: radial-gradient(circle at 30% 70%, #91e67f, #1d8348, #004d26);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+.gradient-text-blue {
+  background: radial-gradient(circle, #98E2FF 0%, #00BFFF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-
-/* Get Started Section
+/* Intro Section
 --------------------------------*/
 
 .maintitle {
@@ -401,15 +410,15 @@ section {
 }
 
 .item1 {
-  background-image: url("../img/hero-bg.jpg");
+  background-image: url("../img/carousel-1.jpg");
 }
 
 .item2 {
-  background-image: url("../img/about-img.jpg");
+  background-image: url("../img/carousel-2.jpg");
 }
 
 .item3 {
-  background-image: url("../img/subscribe-bg.jpg");
+  background-image: url("../img/carousel-3.jpg");
 }
 
 
