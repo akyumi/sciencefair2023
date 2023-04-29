@@ -74,16 +74,17 @@ header {
 }
 
 /* If the screen size is 1200px wide or more, set the font-size to 80px */
-@media (min-width: 1200px) {
+@media (min-width: 700px){
     #maintitle {
-      font-size: 60px;
+      font-size: 65px;
+      font-weight: 400;
     }
   }
   /* If the screen size is smaller than 1200px, set the font-size to 80px */
-  @media (max-width: 1199.98px) {
+  @media screen and (max-width: 700px) {
     #maintitle {
         padding: 12px 9px 0px 0px;
-      font-size: 35px;
+      font-size: 40px;
     }
   }
 
