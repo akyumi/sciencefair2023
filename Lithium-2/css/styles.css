@@ -62,8 +62,6 @@ header {
 
 
 #maintitle {
-    font-size: 55px;
-    font-weight: 400;
     text-align: right;
 }
 
@@ -74,6 +72,20 @@ header {
     font-style: italic;
     text-align: right;
 }
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    #maintitle {
+      font-size: 60px;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 1199.98px) {
+    #maintitle {
+        padding: 12px 9px 0px 0px;
+      font-size: 35px;
+    }
+  }
 
 .nameanm {
     text-decoration: none;
