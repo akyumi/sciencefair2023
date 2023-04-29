@@ -61,11 +61,10 @@ header {
 
 
 
-.maintitle {
+#maintitle {
     font-family: Roboto, sans-serif;
     font-size: 55px;
     font-weight: 400;
-    max-width: 300px;
     text-align: right;
 }
 
