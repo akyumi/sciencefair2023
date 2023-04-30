@@ -79,7 +79,11 @@ hr {
   vertical-align: middle;
 }
 
-#hero h1, h2 {
+#hero h1 {
+  text-align: center;
+}
+
+#hero h2 {
   text-align: center;
 }
 
