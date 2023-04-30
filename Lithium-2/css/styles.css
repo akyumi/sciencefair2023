@@ -64,8 +64,14 @@ header {
     background-color: #0087ca;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
   }
+
+  .nameanm:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
 
 
 
