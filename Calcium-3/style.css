@@ -103,7 +103,7 @@ nav ul li::after{
 }
 .container{
     padding: 80px 139px;
-    color: #f6f6f6;
+    background-color: #f6f6f6;
 }
 .subcontainer{
     background-color: #2B9C3F;
@@ -121,4 +121,37 @@ aside img{
     position: relative;
     bottom: 340.5px;
     left: 550px;
+}
+aside{
+    width: 0;
+    height: 0;
+}
+.index-team{
+    padding: 80px 130px;
+    background-color: #f6f6f6;
+}
+.inte{
+    color: #AEAEAE;
+}
+.exam{
+    color: #000;
+    font-size: 20px;
+}
+.index-pic{
+    padding: 93px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col{
+    margin: 0;
+    padding: 0;
+}
+.col img{
+    height: 220px;
+    width: 220px;
+    padding-bottom: 45px;
+}
+.right{
+    padding-right: 45px;
 }
