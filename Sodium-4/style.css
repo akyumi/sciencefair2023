@@ -1,3 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+	background: #343f4a;
+}
+::-webkit-scrollbar-thumb{
+	background: #536475;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #7891ab;
+}
 header{
 	background-image: url(img/sky.jpg);
 	height: 100vh;
@@ -6,6 +24,7 @@ header{
 }
 hgroup{
 	padding-top: 40vh;
-	text-align: center;
+}
+h1, h3{
 	font-family: 'Raleway', sans-serif;
 }
