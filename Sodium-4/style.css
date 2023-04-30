@@ -1,1 +1,11 @@
-
+header{
+	background-image: url(img/sky.jpg);
+	height: 100vh;
+	background-position: 0 -700px;
+	background-size: cover;
+}
+hgroup{
+	padding-top: 40vh;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
