@@ -5,7 +5,7 @@ article {
 
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.25em;
+    font-size: 1.1rem;
     line-height: 2.75;
 }
 
@@ -16,21 +16,19 @@ article {
     width: 100%;
 
     padding: 1em 4em 1em 6em;
-    background-image: linear-gradient(white);
-
-    transition: 1s;
+    background-color: rgb(0, 0, 0, 0);
 }
-.sunrise {
-    background-image: linear-gradient(rgb(92, 113, 166), rgb(99, 125, 157), rgb(99, 125, 157), rgb(192, 118, 68), rgb(221, 135, 70));
+#bg-wrapper-sunrise {
+    background-image: linear-gradient(rgb(75, 81, 120, 1), rgb(104, 109, 159, 1), rgb(234, 168, 92, 1));
 }
-.noon{
-    background-image: linear-gradient(white, gray);
+#bg-wrapper-noon{
+    background-image: linear-gradient(rgb(96, 170, 255, 1), rgb(135, 191, 255, 1), rgb(187, 228, 255, 1));
 }
-.sunset{
-    background-image: linear-gradient(gray, black);
+#bg-wrapper-sunset{
+    background-image: linear-gradient(rgb(193, 128, 196, 0), rgb(176, 155, 185, 0), rgb(230, 177, 114, 0));
 }
-.midnight{
-    background-image: linear-gradient(black, gray);
+#bg-wrapper-midnight{
+    background-image: linear-gradient(rgb(13, 9, 45, 0), rgb(33, 28, 70, 0), rgb(50, 48, 106, 0));
 }
 
 #interactive-bar-div {
@@ -83,6 +81,7 @@ article {
 .time-button-div:hover span{
     color: black;
 
+    transition-delay: 0.5s;
     transition: all 1s ease-out;
 }
 
@@ -91,6 +90,8 @@ article {
 }
 h1 { 
     text-align: center;
+
+    font-size: 2rem;
 }
 p {
     margin-bottom: 50px;
