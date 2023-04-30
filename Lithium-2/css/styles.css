@@ -3,26 +3,71 @@
 body {
 }
 
-.carouseltitle{
+
+header {
+    position: relative;
+    background-color: black;
+    height: 40vh;
+    min-height: 20rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+ 
+  .nameanm {
+    display: inline-block;
+    text-decoration: none;
     color: white;
-    text-align: right;
-}
+    position: relative;
+    
+  }
+  
+  .nameanm::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    padding-bottom: 5px;
+  }
 
 
-.tpcrsltop {
-    max-height: 300px !important;
-    object-fit: cover !important;
-    object-position: top !important;
-}
 
-.maintitle {
-    font-family: Roboto, sans-serif;
-    font-size: 55px;
-    font-weight: 400;
-}
 
-.mainname {
-    font-size: 24px;
-    font-weight:200;
-    font-style: italic;
-}
+

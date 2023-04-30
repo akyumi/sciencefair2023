@@ -1,0 +1,114 @@
+article {
+    margin-top: 50px;
+
+    background-color: #e1d5cb;
+
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    line-height: 2.75;
+}
+
+#container1 {
+    display: inline-flex;
+
+    height: 100%;
+    width: 100%;
+
+    padding: 1em 4em 1em 6em;
+    background-color: rgb(0, 0, 0, 0);
+}
+#bg-wrapper-sunrise {
+    background-image: linear-gradient(rgb(75, 81, 120, 1), rgb(104, 109, 159, 1), rgb(234, 168, 92, 1));
+}
+#bg-wrapper-noon{
+    background-image: linear-gradient(rgb(96, 170, 255, 1), rgb(135, 191, 255, 1), rgb(187, 228, 255, 1));
+}
+#bg-wrapper-sunset{
+    background-image: linear-gradient(rgb(193, 128, 196, 0), rgb(176, 155, 185, 0), rgb(230, 177, 114, 0));
+}
+#bg-wrapper-midnight{
+    background-image: linear-gradient(rgb(13, 9, 45, 0), rgb(33, 28, 70, 0), rgb(50, 48, 106, 0));
+}
+
+#interactive-bar-div {
+    float: left;
+    display: flex;
+
+    top: 50%;
+    left: 50%;
+    margin: auto;
+
+    height: 100%;
+    width: 50%;
+}
+#interactive-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto;
+}
+.time-button-div {
+    overflow: hidden;
+    margin: 20px 0px;
+
+    height: 38px;
+    width: 35px;
+
+    color: rgba(0, 0, 0, 0);
+
+    transition: all 0.5s ease-out;
+}
+.time-button-div button {
+    height: 35px;
+    width: 35px;
+
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid black;
+    border-radius: 25px;
+}
+.time-button-div:hover {
+    width: 110px;
+
+    cursor: pointer;
+}
+.time-button-div:hover button {
+    background-color: black;
+
+    transition: all 0.5s ease-out;
+}
+.time-button-div:hover span{
+    color: black;
+
+    transition-delay: 0.5s;
+    transition: all 1s ease-out;
+}
+
+#content1 {
+    margin: 5em 6em 5em 2em; 
+}
+h1 { 
+    text-align: center;
+
+    font-size: 2rem;
+}
+p {
+    margin-bottom: 50px;
+}
+#content1-5 {
+    display: inline-flex;
+
+    height: 50%;
+    width: 100%;
+}
+#content1-5 div {
+    height: 100%;
+    width: 50%;
+}
+#lens-div {
+    height: 10%;
+    width: 10%;
+
+    background-color: blue;
+}
