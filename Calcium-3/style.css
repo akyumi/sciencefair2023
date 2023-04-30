@@ -11,40 +11,6 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
-nav{
-    align-self: center;
-}
-nav ul{
-    margin: 0;
-    padding: 0;
-}
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 12px 12px;
-    position: relative;
-}
-nav ul li a{
-    color: #000;
-    text-decoration: none;
-    font-size: 14px;
-}
-nav ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #2B9C3F;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-.active{
-    background: #2B9C3F;
-    padding: 16px 6px;
-    font-size: 14px;
-    color: #fff;
-    height: 56px;
-}
 .slideshow{
     position: relative;
     margin: auto;
