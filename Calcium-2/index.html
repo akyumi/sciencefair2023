@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ca-2 | Transition Contact Lenses</title>
+    <title>Transition Contact Lenses</title>
     <link href="https://smc-26.github.io/sciencefair2023/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://smc-26.github.io/sciencefair2023/bootstrap.js"></script>
@@ -12,41 +12,49 @@
 <body>
     <script>addNavbar();</script>
     <article>
-        <div id = "container1" class = "sunrise">
-            <div id = "interactive-bar-div">
-                <div id = "interactive-bar">
-                    <div class = "time-button-div" onclick = "setsunrise()">
-                        <button  id = "05:30"></button>
-                        <span>05:30</span>
-                    </div>
-                    <div class = "time-button-div" onclick = "setnoon()">
-                        <button id = "12:00"></button>
-                        <span>12:00</span>
-                    </div>
-                    <div class = "time-button-div"  onclick = "setsunset()">
-                        <button  id = "17:30"></button>
-                        <span>17:00</span>
-                    </div>
-                    <div class = "time-button-div"  onclick = "setmidnight()">
-                        <button  id = "00:00"></button>
-                        <span>00:00</span>
-                    </div>
-                    <!-- 5:30 am, 12:00 pm, 5:30pm, 12:am-->
-                </div>
-            </div>
-            <div id = "content1">
-                <h1>Title + Introduction + ayokona</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div id = "content1-5" class = "inline-div">
-                    <div>
-                        <h1>How to Use + Interactive Explanation</h1>
-                        <p>colors are placeholders pa jsfjsdfj dw i am working on it. the whole bg thing is so jasdfkjadskfjakj hahahah</p>
-                    </div>
-                    <div id = "lens-div">
-                        placeholder color 4 me to not lose track of this div hahahah
+        <div id = "bg-wrapper-sunrise">
+        <div id = "bg-wrapper-noon">
+        <div id = "bg-wrapper-sunset">
+        <div id = "bg-wrapper-midnight">
+            <div id = "container1">
+                <div id = "interactive-bar-div">
+                    <div id = "interactive-bar">
+                        <div class = "time-button-div" onclick = "setsunrise()">
+                            <button id = "05:30"></button>
+                            <span>05:30</span>
+                        </div>
+                        <div class = "time-button-div" onclick = "setnoon()">
+                            <button id = "12:00"></button>
+                            <span>12:00</span>
+                        </div>
+                        <div class = "time-button-div"  onclick = "setsunset()">
+                            <button  id = "17:30"></button>
+                            <span>17:00</span>
+                        </div>
+                        <div class = "time-button-div"  onclick = "setmidnight()">
+                            <button  id = "00:00"></button>
+                            <span>00:00</span>
+                        </div>
+                        <!-- 5:30 am, 12:00 pm, 5:30pm, 12:am-->
                     </div>
                 </div>
+                <div id = "content1">
+                    <h1>Title + Introduction + ayokona</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div id = "content1-5" class = "inline-div">
+                        <div>
+                            <h1>How to Use + Interactive Explanation</h1>
+                            <p>colors are placeholders pa jsfjsdfj dw i am working on it. the whole bg thing is so jasdfkjadskfjakj hahahah</p>
+                        </div>
+                        <div id = "lens-div">
+                            placeholder color 4 me to not lose track of this div hahahah
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+        </div>
+        </div>
         </div>
         <div id = "container2">
             <h1>Science Concepts Involved</h1>
@@ -75,9 +83,9 @@
             </ul>
         </div>
     </article>
-        <footer>
+    <footer>
 
-        </footer>
-        <script src = "script.js"></script>
+    </footer>
+    <script src = "script.js"></script>
 </body>
 </html>
