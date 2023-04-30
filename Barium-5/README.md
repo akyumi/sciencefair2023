@@ -3,7 +3,7 @@
 
 ![HOLY COW](https://media.discordapp.net/attachments/877147396449116210/934059063958990878/unknown.png)
 
-## Progress: 50%
+## Progress: 50% HALFWAYYYY
 
 For now the website looks like a template but its gonna be an original webpage trust me :))
 
@@ -29,7 +29,7 @@ For now the website looks like a template but its gonna be an original webpage t
 
 - Footer
 
-### Lines of original code added: 825
+### Lines of original code added: 966
 
 ## Members and Credits
 
