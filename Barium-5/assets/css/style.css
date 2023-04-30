@@ -58,19 +58,7 @@ hr {
   width: 100%;
   background: url(../img/hero-bg.jpg) top center;
   background-size: cover;
-}
-
-@media screen and (min-width: 1920px) {
-  #hero {
-    height: 60vh;
-  }
-}
-
-
-@media screen and (max-width: 1919px) {
-  #hero {
-    height: 70vh;
-  }
+  height: 100vh;
 }
 
 
@@ -80,14 +68,7 @@ hr {
   }
 } 
 
-#hero .hero-logo {
-  margin: 20px;
-}
 
-#hero .hero-logo img {
-  max-width: 100%;
-  margin-left: 250px
-}
 
 #hero .hero-container {
   background: rgba(0, 0, 0, 0.8);
@@ -98,8 +79,11 @@ hr {
   vertical-align: middle;
 }
 
+#hero h1, h2 {
+  text-align: center;
+}
+
 #hero h1 {
-  margin-left: 10%;
   font-weight: 700;
   line-height: 100px;
   font-size: 80px;
@@ -129,7 +113,6 @@ hr {
 
 #hero h2 {
   color: #ccc;
-  margin: 0 0 0 10% !important;
 }
 
 #hero h2 span {
@@ -258,6 +241,39 @@ section {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.rainbow-text-moving {
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@-webkit-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
 }
 
 .gradient-text-violet {
