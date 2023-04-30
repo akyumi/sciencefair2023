@@ -1,3 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #343f4a;
+}
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+	background: #343f4a;
+}
+::-webkit-scrollbar-thumb{
+	background: #536475;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #7891ab;
+}
 header{
 	background-image: url(img/sky.jpg);
 	height: 100vh;
@@ -6,6 +25,48 @@ header{
 }
 hgroup{
 	padding-top: 40vh;
-	text-align: center;
+}
+h1, h3{
 	font-family: 'Raleway', sans-serif;
+}
+#title{
+	font-size: 70px;
+}
+#subtitle{
+	font-size: 30px;
+}
+#link{
+	color: #343f4a;
+}
+main{
+	width: 1200px;
+	margin: 50px auto;
+}
+section{
+	margin: 50px 0;
+}
+.local{
+	background-color: #73a4c7;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	display: flex;
+}
+.local ul{
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.local li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px 30px;
+}
+.local a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+.local a:hover{
+	color: lightgray;
 }
