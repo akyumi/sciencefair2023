@@ -1,3 +1,9 @@
+async function addNavbar() {
+    const resp = await fetch("https://smc-26.github.io/sciencefair2023/navbar.html");
+    const html = await resp.text();
+    document.body.insertAdjacentHTML("afterbegin", html);
+}
+
 //code for toggling active classes on buttons; taken from W3Schools
 var btnContainer = document.getElementById("btn-container");
 
@@ -29,10 +35,4 @@ function showTopic(index) {
     main_part.innerHTML = "Part 0" + current + ":"
     main_desc.innerHTML = document.getElementById(parts[current] + "-desc").innerHTML;
     main_text.innerHTML = document.getElementById(parts[current]).innerHTML;
-}
-
-async function addNavbar() {
-    const resp = await fetch("https://smc-26.github.io/sciencefair2023/navbar.html");
-    const html = await resp.text();
-    document.body.insertAdjacentHTML("afterbegin", html);
 }
