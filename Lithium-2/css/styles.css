@@ -7,8 +7,8 @@ body {
 header {
     position: relative;
     background-color: black;
-    height: 60vh;
-    min-height: 25rem;
+    height: 50vh;
+    min-height: 30rem;
     width: 100%;
     overflow: hidden;
   }
@@ -61,6 +61,41 @@ header {
   .maintitle {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+  }
+
+
+.nameanm {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color:unset;
+}
+
+  .nameanm::after {
+    text-decoration: none;
+    content: '';
+    position: relative;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    padding-bottom: 2px;
+  }
+  
+  .nameanm:hover {
+    position: relative;
+    margin: 5px;
+    transform: scale(1.1);
+    transition: all ease 300ms;
+  }
+  .nameanm:hover::after {
+    position: absolute;
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
   
 
