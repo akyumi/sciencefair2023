@@ -1,4 +1,4 @@
-Topic: Painless Microneedles Inspired by Mosquitoes
+**Topic: Painless Microneedles Inspired by Mosquitoes
 Group: Lithium - 5
 Members: 
     ➡ Balagulan, Elisha Jane
@@ -15,4 +15,4 @@ Update #01
 Update #02 (05/01/2023)
     > Added Navbar (Not finished)
     > Added Video Header (Draft Video Only)
-    > Added Toggle Light/Dark Theme Option
+    > Added Toggle Light/Dark Theme Option**
