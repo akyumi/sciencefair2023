@@ -79,7 +79,7 @@ html, body{
     display: inline-block;
     clear: left;
 }
-.PHSynth{
+.BigText{
     margin-top: 1em;
     color: #73E2AC;
     margin-left: 10px;
@@ -109,6 +109,21 @@ html, body{
     top: 30px;
     color: white;
     text-align: center;
+}
+.Phsynth{
+    height: 100%;
+}
+.Flower{
+    height: 100%;
+}
+.Climate{
+    height: 100%;
+}
+.DNA{
+    height: 100%;
+}
+.Future{
+    height: 100%;
 }
 .Salt{
     position: absolute !important;
