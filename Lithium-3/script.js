@@ -16,12 +16,13 @@ var main_part = document.getElementById("main-part");
 var main_desc = document.getElementById("main-desc");
 var main_text = document.getElementById("main-text");
 
-main_part.innerHTML = "Part 0" + document.getElementById("intro-desc").part + ":";
+const parts = ["placeholder", "intro", "algaepower", "action", "improvement", "conclusion", "refs", "researchers"];
+var current = 1;
+
+main_part.innerHTML = "Part 0" + current + ":";
 main_desc.innerHTML = document.getElementById("intro-desc").innerHTML;
 main_text.innerHTML = document.getElementById("intro").innerHTML;
 
-const parts = ["placeholder", "intro", "algaepower", "action", "improvement", "conclusion", "refs", "researchers"];
-var current = 0;
 
 function showTopic(index) {
     current = index;
