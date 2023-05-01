@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 body {
 }
 
@@ -7,7 +7,7 @@ body {
 header {
     position: relative;
     background-color: black;
-    height: 75vh;
+    height: 60vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -56,6 +56,11 @@ header {
     header video {
       display: none;
     }
+  }
+
+  .maintitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
   }
   
 
