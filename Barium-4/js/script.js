@@ -27,10 +27,6 @@ const getData = async(url) => {
   return data.data;
 }
 
-// 5. Partial Application of addBackground to always apply 
-// background to the magicalUnderlines constant
-const addBackgroundToUnderlines = addBackground(magicalUnderlines);
-
 // GRADIENT FUNCTIONS
 
 // 1. Build CSS formatted linear-gradient from API data

@@ -64,31 +64,31 @@ h2 { font-size: 1.8rem; }
 }
 
 .btn-primary {
-    background: #ffd7b1;
-    border-color: #ffd7b1;
+    background: #fb5849;
+    border-color: #fb5849;
 }
 
 .btn-secondary {
-    background: #ffd7b1;
-    border-color: #ffd7b1;
+    background: #fb5849;
+    border-color: #fb5849;
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus {
-    background: #ffc478;
-    border-color: #ffc478;
+    background: #dc3545;
+    border-color: #dc3545;
 }
 
 .btn-primary:focus,
 .btn-primary:hover {
-    background: #ffc478;
-    border-color: #ffc478;
+    background: #dc3545;
+    border-color: #dc3545;
 }
 
-.tm-bg-color-primary { background-color: #ffd7b1; }
-.tm-bg-color-secondary { background-color: #ffd7b1; }
+.tm-bg-color-primary { background-color: #fb5849; }
+.tm-bg-color-secondary { background-color: #fb5849; }
 .tm-bg-color-gray { background-color: #666666; }
-.tm-text-color-primary { color: #ffd7b1; }
+.tm-text-color-primary { color: #fb5849; }
 .tm-text-color-white { color: white; }
 .tm-text-color-gray { color: #666666; }
 .tm-font-thin { font-weight: 300; }
