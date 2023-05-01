@@ -29,7 +29,7 @@ For now the website looks like a template but its gonna be an original webpage t
 
 - Footer
 
-### Lines of original code added: 966
+### Lines of original code added: 1,050
 
 ## Members and Credits
 

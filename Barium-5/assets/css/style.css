@@ -18,7 +18,7 @@ body {
 a {
   text-decoration: none;
   color: #03C4EB;
-  transition: 0.5s;
+  transition: 0.10s;
 }
 
 a:hover,
@@ -152,8 +152,7 @@ hr {
   min-height:100%;
   border-bottom: 2px solid;
   border-bottom: 2px solid;
-  border-image: linear-gradient(
-    90deg,
+  border-image: conic-gradient(
     rgba(255, 0, 0, 1) 0%,
     rgba(255, 154, 0, 1) 10%,
     rgba(208, 222, 33, 1) 20%,
@@ -172,8 +171,6 @@ hr {
 .b1 {
   margin-right: 0.5vw;
 }
-
-
 
 @media (max-width: 720px) {
   #hero h1 {
@@ -275,10 +272,57 @@ section {
   background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
   background-size: 500% 500%;
   animation: a 10s linear infinite;
-  -webkit-animation: rainbow 18s ease infinite;
-  -z-animation: rainbow 18s ease infinite;
-  -o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;
+  -webkit-animation: rainbow 18s linear infinite;
+  -z-animation: rainbow 18s linear infinite;
+  -o-animation: rainbow 18s linear infinite;
+  animation: rainbow 18s linear infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@-webkit-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+.rainbow-text-moving-2 {
+  min-height:100%;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 20%,
+    rgba(79, 220, 74, 1) 30%,
+    rgba(63, 218, 216, 1) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgba(95, 21, 242, 1) 70%,
+    rgba(186, 12, 248, 1) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  background-size: 150% 5%;
+  animation:  10s linear infinite;
+  -webkit-animation: rainbow 10s linear infinite;
+  -z-animation: rainbow 10s linear infinite;
+  -o-animation: rainbow 10s linear infinite;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -529,7 +573,7 @@ section {
   float: left;
   background: #03C4EB;
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 0.10s;
   border: 1px solid #03C4EB;
   display: inline-flex;
   align-items: center;
