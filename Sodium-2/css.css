@@ -39,26 +39,76 @@ html, body{
     position: relative;
     left: -10%;
 }
+.Zero{
+    height: 100%;
+    text-align: center;
+    clear: left;
+}
+.Zero-Text{
+    position: relative;
+    top: 40%;
+    color: white;
+}
 .One{
     background-color: #73E2AC;
+    margin-right: -4px;
     height: 100%;
-    width: 32%;
+    width: 33%;
     display: inline-block;
     clear: left;
 }
+.One-Pic{
+    height: 144px;
+    width: 144px;
+    position: relative;
+    top: 30%;
+}
 .Two{
     background-color: #03C5AD;
+    margin-right: -4px;
     height: 100%;
-    width: 33%;
+    width: 34%;
     display: inline-block;
     clear: left;
 }
 .Three{
     background-color: #00B2C7;
+    margin-right: -4px;
     height: 100%;
     width: 33%;
     display: inline-block;
     clear: left;
+}
+.PHSynth{
+    margin-top: 1em;
+    color: #73E2AC;
+    margin-left: 10px;
+}
+.VPH{
+    background-color: black;
+    margin-top: 3em;
+    margin-left: 50px;
+    height: 200px;
+    width: 400px;
+    border-radius: 25px;
+    display: inline-block;
+    position: relative; 
+    top: 30px;
+    color: white;
+    text-align: center;
+}
+.PPH{
+    background-color: black;
+    margin-top: 3em;
+    height: 500px;
+    width: 200px;
+    border-radius: 25px;
+    float: right;
+    margin-right: 40px;
+    position: relative; 
+    top: 30px;
+    color: white;
+    text-align: center;
 }
 .Salt{
     position: absolute !important;
