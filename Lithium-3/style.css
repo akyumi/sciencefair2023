@@ -43,7 +43,7 @@ body {
 }
 
 #photosynthesis {
-    width: auto;
+    width: 30%;
 }
 
 #main-part {color: var(--primary-color);}
@@ -56,4 +56,12 @@ body {
 #main-text {
     text-align: justify;
     color: var(--primary-color);
+}
+
+#liquid3-pics {
+    width: 50%;
+}
+
+@media only screen and (max-width: 576px) {
+    #liquid3-pics {width: 100%;}
 }

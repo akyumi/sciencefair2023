@@ -7,7 +7,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: url(images/kelp.jpg);
+    background-image: url(media/kelp.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -193,7 +193,7 @@ button:hover{
 .bod{
     width: 100%;
     height: 100vh;
-    background-image: url(images/underwater.jpg);
+    background-image: url(media/underwater.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
