@@ -11,40 +11,6 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
-nav{
-    align-self: center;
-}
-nav ul{
-    margin: 0;
-    padding: 0;
-}
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 12px 12px;
-    position: relative;
-}
-nav ul li a{
-    color: #000;
-    text-decoration: none;
-    font-size: 14px;
-}
-nav ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #2B9C3F;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-.active{
-    background: #2B9C3F;
-    padding: 16px 6px;
-    font-size: 14px;
-    color: #fff;
-    height: 56px;
-}
 .slideshow{
     position: relative;
     margin: auto;
@@ -103,7 +69,7 @@ nav ul li::after{
 }
 .container{
     padding: 80px 139px;
-    color: #f6f6f6;
+    background-color: #f6f6f6;
 }
 .subcontainer{
     background-color: #2B9C3F;
@@ -121,4 +87,37 @@ aside img{
     position: relative;
     bottom: 340.5px;
     left: 550px;
+}
+aside{
+    width: 0;
+    height: 0;
+}
+.index-team{
+    padding: 80px 130px;
+    background-color: #f6f6f6;
+}
+.inte{
+    color: #AEAEAE;
+}
+.exam{
+    color: #000;
+    font-size: 20px;
+}
+.index-pic{
+    padding: 93px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col{
+    margin: 0;
+    padding: 0;
+}
+.col img{
+    height: 220px;
+    width: 220px;
+    padding-bottom: 45px;
+}
+.right{
+    padding-right: 45px;
 }

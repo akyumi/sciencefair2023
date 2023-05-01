@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Krona+One&display=swap');
 
 :root {
-    --primary-color: #0b4135;
-    --secondary-color: #fdffd0;
+    --primary-color: #fff;
+    --secondary-color: #0b4135;
 }
 
 body {
-    background-color: var(--secondary-color) !important;
+    background: url(imgs/background_1.jpg) fixed no-repeat left top;
+    background-size: cover;
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -18,6 +19,8 @@ body {
 #main {
     --bs-border-color: var(--primary-color);
     width: 90%;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0,0,0,0.25);
 }
 
 #btn-container {
@@ -39,6 +42,10 @@ body {
     margin: 0 0.25rem;
 }
 
+#photosynthesis {
+    width: 30%;
+}
+
 #main-part {color: var(--primary-color);}
 
 #main-desc {
@@ -49,4 +56,12 @@ body {
 #main-text {
     text-align: justify;
     color: var(--primary-color);
+}
+
+#liquid3-pics {
+    width: 50%;
+}
+
+@media only screen and (max-width: 576px) {
+    #liquid3-pics {width: 100%;}
 }
