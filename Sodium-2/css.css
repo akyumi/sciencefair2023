@@ -193,24 +193,48 @@ html, body{
     color: #03C5AD;
     margin-left: 10px;
     width: 300px;
+    position: relative;
+    top: 0%;
+}
+.Cut{
+    display: inline-block;
+}
+.Split{
+    display: inline-block;
 }
 .Floro{
     background-color: #FFAB00;
+    position: relative;
+    right: 0%;
+    height: 200px;
+    width: 300px;
+    color: white;
+    display: inline-block;
 }
 .Eve{
     background-color: #4A9D83;
+    color: white;
+    display: inline-block;
 }
 .Zild{
     background-color: #03C5AD;
+    color: white;
+    display: inline-block;
 }
 .Bato{
     background-color: #00B2C7;
+    color: white;
+    display: inline-block;
 }
 .Sam{
     background-color: #FCE074;
+    color: white;
+    display: inline-block;
 }
 .Marita{
     background-color: #73E2AC;
+    color: white;
+    display: inline-block;
 }
 .Soil{
     height: 100%;
