@@ -11,16 +11,6 @@ body{
     height: 5px;
     width: 5px;
 }
-
-header{
-    margin-top: 50px;
-}
-
-header, footer{
-    background-color: lightgreen;
-    padding: 1em;
-    text-align: center;
-}
 article{
     margin-left: 10px;
 }
