@@ -119,11 +119,105 @@ html, body{
 .Climate{
     height: 100%;
 }
+.VVPH{
+    background-color: black;
+    margin-top: 3em;
+    margin-left: 20px;
+    height: 400px;
+    width: 1000px;
+    border-radius: 25px;
+    display: inline-block;
+    position: relative; 
+    top: 30px;
+    color: white;
+    text-align: center;
+}
+.APH{
+    background-color: #00B2C7;
+    margin-top: 3em;
+    height: 400px;
+    width: 200px;
+    border-radius: 25px;
+    float: right;
+    margin-right: 50px;
+    position: relative; 
+    top: 30px;
+    color: white;
+    text-align: center;
+}
 .DNA{
     height: 100%;
 }
 .Future{
     height: 100%;
+}
+.VVVPH{
+    background-color: black;
+    margin-top: 3em;
+    margin-left: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    display: inline-block;
+    position: relative; 
+    top: 30px;
+    color: white;
+    text-align: center;
+}
+.AAPH{
+    background-color: #4A9D83;
+    margin-top: 3em;
+    height: 532px;
+    width: 600px;
+    border-radius: 25px;
+    float: right;
+    margin-right: 50px;
+    position: relative; 
+    top: 0px;
+    color: white;
+    text-align: center;
+}
+.Game{
+    height: 100%;
+}
+.TextPH, .SoilText{
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+.Doxx{
+    height: 100%;
+}
+.DoxxText{
+    text-align: center;
+    color: #03C5AD;
+    margin-left: 10px;
+    width: 300px;
+}
+.Floro{
+    background-color: #FFAB00;
+}
+.Eve{
+    background-color: #4A9D83;
+}
+.Zild{
+    background-color: #03C5AD;
+}
+.Bato{
+    background-color: #00B2C7;
+}
+.Sam{
+    background-color: #FCE074;
+}
+.Marita{
+    background-color: #73E2AC;
+}
+.Soil{
+    height: 100%;
+    background-color: #884F21;
+}
+.SoilText{
+    color: white;
 }
 .Salt{
     position: absolute !important;
