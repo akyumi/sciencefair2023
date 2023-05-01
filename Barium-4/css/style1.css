@@ -18,11 +18,6 @@ header{
     transition: 0.5s ease;
 }
 
-.embed {
-    width: 500px;
-    height: 281px;
-}
-
 header .brand{
     color: #000;
     font-size: 1.5em;
@@ -68,6 +63,8 @@ header .navigation .navigation-items a:hover:before{
     color: black;
     width: 50%;
     text-align: center;
+    line-height: 80px;
+    letter-spacing: justify;
   }
   
   .subheading {
@@ -75,10 +72,15 @@ header .navigation .navigation-items a:hover:before{
     left: 300px;
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
-    line-height: 1.5;
+    line-height: 1.5px;
+    letter-spacing: justify;
     color: black;
     width: 50%;
     text-align: center;
+    color: #757575;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
   }
   
   @media screen and (min-width: 40em) {
@@ -96,7 +98,7 @@ header .navigation .navigation-items a:hover:before{
   ==================================================*/
   
   .underline--magical {
-    background-image: linear-gradient(120deg, #ffd7b1 0%, #ffc478 100%);
+    background-image: linear-gradient(120deg, #fb5849 0%, #dc3545 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: 0 88%;
@@ -110,7 +112,7 @@ header .navigation .navigation-items a:hover:before{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #ffd7b1;
+    background: #fb5849;
 }
 
 .home:before{
@@ -157,7 +159,7 @@ header .navigation .navigation-items a:hover:before{
 .home .content a{
     background: #fff;
     padding: 15px 35px;
-    color: #ffc478;
+    color: #fb5849;
     font-size: 1.1em;
     font-weight: 500;
     text-decoration: none;
@@ -193,7 +195,7 @@ header .navigation .navigation-items a:hover:before{
     }
 
     section{
-        padding: 100px 20px;
+        padding: 100px;
     }
 
     .home .media-icons{
@@ -236,7 +238,7 @@ header .navigation .navigation-items a:hover:before{
 }
 
 .slider-navigation .nav-btn.active{
-    background: #ffd7b1;
+    background: #fb5849;
 }
 
 .slider-navigation .nav-btn:not(:last-child){
