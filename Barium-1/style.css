@@ -139,9 +139,11 @@ nav     {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 0;
-    padding-bottom: 25px;
+    padding-bottom: 25px; 
     position: relative;
     color: var(--text-color);
+    width: 50%;
+    left: 25%;
 }
   
 .section-title h2::before {
@@ -150,7 +152,7 @@ nav     {
     display: block;
     width: 120px;
     height: 1px;
-    background: #ddd;
+    background: #dddddd;
     bottom: 1px;
     left: calc(50% - 60px);
 }
@@ -165,18 +167,13 @@ nav     {
     bottom: 0;
     left: calc(50% - 20px);
 }
-  
-.section-title p {
-    margin-bottom: 0;
-}
 
 .desc {
-    margin-top: 50px;
+    padding-top: 50px;
 	width: 100%;
 }
 
 .desc .container {
-    padding-bottom: 40px;
     padding-left: 70px;
 }
 
@@ -186,4 +183,24 @@ nav     {
 
 .desc .img-fluid {
     padding-top: 100px;
+}
+
+.conc {
+    padding-top: 37px;
+	width: 100%;
+}
+
+.app {
+    padding-top: 50px;
+	width: 100%;
+}
+
+.ref {
+    padding-top: 50px;
+	width: 100%;
+}
+
+.res {
+    padding-top: 50px;
+	width: 100%;
 }
