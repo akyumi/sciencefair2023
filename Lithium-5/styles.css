@@ -49,12 +49,6 @@ nav a.logo-link:hover {
   opacity: 0.85;
 }
 
-/* nav bar buttons active status styles */
-nav a:active, .btn:active {
-  background-color: #cdcdcd;
-  color: black;
-}
-
 /* adjusts placement and size of logo */
 nav img {
   height: 45px;
