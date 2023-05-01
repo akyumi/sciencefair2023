@@ -1,12 +1,12 @@
 Topic: Painless Microneedles Inspired by Mosquitoes
 Group: Lithium - 5
 Members: 
-    - Balagulan, Elisha Jane
-    - Galendez, Fiona Mikaela
-    - Mercado, Josh Ethan
-    - Oliveros, Xavier
-    - Sison, Hannah Nicole
-    - Solon, Cael Achilles
+    ➡ Balagulan, Elisha Jane
+    ➡ Galendez, Fiona Mikaela
+    ➡ Mercado, Josh Ethan
+    ➡ Oliveros, Xavier
+    ➡ Sison, Hannah Nicole
+    ➡ Solon, Cael Achilles
 
 Update #01
     > Added CS Template assigned by Sir Kev
