@@ -425,7 +425,6 @@ section {
 }
 
 #about .about-img {
-  overflow: hidden;
   margin: auto;
   max-height: 100%;
   max-width: 100%;
@@ -561,7 +560,7 @@ section {
 
 
 .item1 {
-  background-image: url("../img/carousel-1.jpg");
+  background-image: url("../img/airplane.png");
 }
 
 .item2 {
@@ -569,7 +568,7 @@ section {
 }
 
 .item3 {
-  background-image: url("../img/carousel-3.jpg");
+  background-image: url("../img/lastslong.jpg");
 }
 
 
