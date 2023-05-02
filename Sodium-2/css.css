@@ -206,29 +206,42 @@ html, body{
     background-image: url(DoxxBack.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom 10%;
+}
+.DoxxHeader{
+    text-align: center;
+    width: 30%;
+    font-size: 3em;
+    color: #4A9D83;
 }
 .DoxxText{
     text-align: center;
     color: #03C5AD;
     margin-left: 10px;
-    width: 300px;
+    width: 30%;
+    height: fit-content;
     position: relative;
     top: -2%;
     display: inline-block;
-    font-size: larger;
+    font-size: 20px;
 }
 .Doxxed{
     position: relative;
     top: 50%;
 }
+.Info{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: small;
+}
 .Floro{
-    margin-right: 3%;
     position: relative;
-    top: -5%;
-    background-color: #FFAB00;
+    top: -10%;
+    margin-right: 3%;
     margin-left: 10%;
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
+    background-color: #FFAB00;
     color: white;
     text-align: center;
     display: inline-block;
@@ -236,47 +249,53 @@ html, body{
 .Eve{
     margin-right: 3%;
     position: relative;
-    top: -5%;
+    top: -10%;
     background-color: #4A9D83;
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     color: white;
     text-align: center;
     display: inline-block;
 }
 .Zild{
     position: relative;
-    top: -5%;
+    top: -10%;
     background-color: #03C5AD;
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     color: white;
     text-align: center;
     display: inline-block;
 }
 .Bato{
-    margin-left: 31%;
+    position: relative;
+    top: -20%;
+    margin-left: 41%;
     margin-right: 3%;
     background-color: #00B2C7;
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     color: white;
     text-align: center;
     display: inline-block;
 }
 .Sam{
+    position: relative;
+    top: -18%;
     margin-right: 3%;
     background-color: #FCE074;
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     color: white;
     text-align: center;
     display: inline-block;
 }
 .Marita{
+    position: relative;
+    top: -5%;
     background-color: #73E2AC;
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     color: white;
     text-align: center;
     display: inline-block;
