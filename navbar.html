@@ -1,0 +1,125 @@
+<style>
+.navbar1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
+    --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+    --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
+    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-nav-link-padding-x: 0.5rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
+    --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+    margin: 0;
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: #212529 !important;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    font-size: 1rem !important;
+}
+
+.btn-primary.rainbow {
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%) !important;
+    animation:slidebg 5s linear infinite;
+    transition: 0.5s !important;
+    color: #000000 !important;
+}
+.btn-primary.rainbow:hover {
+
+    background-image: linear-gradient(90deg, #025b79 0%, #8a7102 49%, #8f2b2b 80%, #005c7a 100%) !important;
+    animation:slidebg 5s linear infinite;
+    transition: 0.5s !important;
+    color: #FFFFFF !important;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+</style>
+<nav class="navbar1 text-light navbar-expand-sm navbar-dark bg-dark-subtle border border-dark py-1 w-100 fixed-top" data-bs-theme="dark">
+    <a class="navbar-brand ms-2" href="https://smc-26.github.io/sciencefair2023/">
+        <img src="https://smc-26.github.io/sciencefair2023/x-assets/img/logo.png" class="img" alt="logo" width="30" height="30">
+    </a>
+    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ms-2" id="navbar-content">
+        <ul class="navbar-nav "><!-- goes to the left part of the navbar-->
+            <li class="nav-item"><a href="https://smc-26.github.io/sciencefair2023/" class="nav-link">Home</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ba</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Barium-1/">Group 1</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Barium-2/">Group 2</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Barium-3/">Group 3</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Barium-4/">Group 4</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Barium-5/">Group 5</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Li</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Lithium-1/">Group 1</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Lithium-2/">Group 2</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Lithium-3/">Group 3</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Lithium-4/">Group 4</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Lithium-5/">Group 5</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ca</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Calcium-1/">Group 1</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Calcium-2/">Group 2</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Calcium-3/">Group 3</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Calcium-4/">Group 4</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Calcium-5/">Group 5</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Na</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Sodium-1/">Group 1</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Sodium-2/">Group 2</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Sodium-3/">Group 3</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Sodium-4/">Group 4</a></li>
+                    <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Sodium-5/">Group 5</a></li>
+              </ul>
+            </li>
+        </ul>
+        <ul class="navbar-nav ms-auto"> <!--goes to the right side of the navbar-->
+            <li class="nav-item me-3">
+                <button type="button" class="btn btn-primary rainbow px-2" onclick="redirect()">
+                        <i class="bi bi-dice-5"></i>
+                        Surprise Me!
+                </button>
+            </li>
+        </ul>
+    </div>
+</nav>
