@@ -37,10 +37,10 @@ For now the website looks like a template but its gonna be an original webpage t
 
 - Knight Arensol: 3D models, design
 
-- Merielle Cocjin: content
+- Merielle Cocjin: introduction content
 
-- Lavinia Elizan: content
+- Lavinia Elizan: carousel content
 
-- Rhyss Lopez: content
+- Rhyss Lopez: coder, design
 
-- Annika Bamboa: content
+- Annika Bamboa: general content
