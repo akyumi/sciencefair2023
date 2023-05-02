@@ -200,6 +200,7 @@ hr {
 --------------------------------------------------------------*/
 /* Sections Common
 --------------------------------*/
+
 section {
   overflow: hidden;
 }
@@ -223,8 +224,6 @@ section {
   text-align: center;
   margin-bottom: 40px;
 }
-
-
 
 .section-title-divider {
   width: 15vw;
@@ -622,6 +621,11 @@ section {
   padding: 80px 0 60px 0;
 }
 
+.zoom-effect:hover {
+  transform: scale(1.25);
+}
+
+
 #team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -629,9 +633,13 @@ section {
 
 #team .member .pic {
   margin-bottom: 15px;
-  overflow: hidden;
   height: 260px;
 }
+
+.pic {
+  overflow: hidden;
+}
+
 
 #team .member .pic img {
   max-width: 100%;
@@ -647,6 +655,7 @@ section {
   display: block;
   font-size: 13px;
 }
+
 
 
 /*--------------------------------------------------------------
