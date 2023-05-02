@@ -10,6 +10,7 @@ header {
     background-color: black;
     width: 100%;
     overflow: hidden;
+    padding-top: 13px;
   }
   
   header video {
