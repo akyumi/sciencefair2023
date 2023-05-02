@@ -37,3 +37,34 @@ header{
 .content{
 	  text-align: center;
 }
+.mem{
+	background-color: #202020;
+	border-radius: 20px;
+	font-family: 'Bebas Neue', cursive;
+	width: 100%;
+	height: 500px;
+	padding: 15px;
+	color: #bbd6ff;
+}
+div.mem h1{
+	border-bottom: 3px dotted rgb(0, 140, 255);
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 50px;
+	color: #dbeaff;
+}
+div#first, div#second, div#third, div#fourth, div#fifth, div#sixth{
+	width: 25%;
+	float: left;
+	margin: 10px 50px;
+	margin-bottom: 40px;
+}
+div.mem img{
+	margin: 10px;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+div.mem p{
+	font-size: 15px;
+}
