@@ -46,20 +46,16 @@
     background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%) !important;
     animation:slidebg 5s linear infinite;
     transition: 0.5s !important;
-    
+    color: #000000 !important;
 }
 .btn-primary.rainbow:hover {
 
     background-image: linear-gradient(90deg, #025b79 0%, #8a7102 49%, #8f2b2b 80%, #005c7a 100%) !important;
     animation:slidebg 5s linear infinite;
     transition: 0.5s !important;
-}
-.btn-primary.rainbow a{
-    color: #000000 !important;
-}
-.btn-primary.rainbow a:hover{
     color: #FFFFFF !important;
 }
+
 @keyframes slidebg {
   to {
     background-position:20vw;
@@ -119,7 +115,7 @@
         </ul>
         <ul class="navbar-nav ms-auto"> <!--goes to the right side of the navbar-->
             <li class="nav-item me-3">
-                <button type="button" class="btn btn-primary rainbow text-dark px-2" onclick="redirect()">
+                <button type="button" class="btn btn-primary rainbow px-2" onclick="redirect()">
                         <i class="bi bi-dice-5"></i>
                         Surprise Me!
                 </button>
