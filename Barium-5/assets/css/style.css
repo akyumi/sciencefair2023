@@ -529,7 +529,7 @@ section {
   }   
 }
 
-@media screen and (max-width: 1919px) {
+@media screen and (min-width: 720px) {
   .carousel-container  {
     height: 80vh;
   }
@@ -543,6 +543,22 @@ section {
     font-size: 3vw;  
   }   
 }
+
+@media screen and (max-width: 719px) {
+  .carousel-container  {
+    height: 80vh;
+  }
+  .carousel-container h3 {
+    font-size: 10vw;
+  }  
+  .carousel-container p {
+    font-size: 1.15vw;
+  }  
+  .carousel-container h4 {
+    font-size: 3vw;  
+  }   
+}
+
 
 .item1 {
   background-image: url("../img/carousel-1.jpg");
