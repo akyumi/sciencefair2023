@@ -200,6 +200,7 @@ hr {
 --------------------------------------------------------------*/
 /* Sections Common
 --------------------------------*/
+
 section {
   overflow: hidden;
 }
@@ -223,8 +224,6 @@ section {
   text-align: center;
   margin-bottom: 40px;
 }
-
-
 
 .section-title-divider {
   width: 15vw;
@@ -530,7 +529,7 @@ section {
   }   
 }
 
-@media screen and (max-width: 1919px) {
+@media screen and (min-width: 720px) {
   .carousel-container  {
     height: 80vh;
   }
@@ -544,6 +543,22 @@ section {
     font-size: 3vw;  
   }   
 }
+
+@media screen and (max-width: 719px) {
+  .carousel-container  {
+    height: 80vh;
+  }
+  .carousel-container h3 {
+    font-size: 10vw;
+  }  
+  .carousel-container p {
+    font-size: 1.15vw;
+  }  
+  .carousel-container h4 {
+    font-size: 3vw;  
+  }   
+}
+
 
 .item1 {
   background-image: url("../img/carousel-1.jpg");
@@ -622,6 +637,11 @@ section {
   padding: 80px 0 60px 0;
 }
 
+.zoom-effect:hover {
+  transform: scale(1.25);
+}
+
+
 #team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -629,9 +649,13 @@ section {
 
 #team .member .pic {
   margin-bottom: 15px;
-  overflow: hidden;
   height: 260px;
 }
+
+.pic {
+  overflow: hidden;
+}
+
 
 #team .member .pic img {
   max-width: 100%;
@@ -647,6 +671,7 @@ section {
   display: block;
   font-size: 13px;
 }
+
 
 
 /*--------------------------------------------------------------
