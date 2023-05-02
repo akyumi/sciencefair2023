@@ -26,7 +26,7 @@ body, html{
 .main-page{
     background-attachment: fixed;
     width: 100%;
-    min-height: 871px;
+    min-height: 100vh;
 }
 .main-box{
     opacity: 90%;
