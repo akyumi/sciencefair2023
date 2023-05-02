@@ -1,1 +1,35 @@
-
+@import url('//db.onlinewebfonts.com/c/6ab539c6fc2b21ff0b149b3d06d7f97c?family=Minecraft');
+@font-face {font-family: "Minecraft"; src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot"); src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.woff") format("woff"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.svg#Minecraft") format("svg"); }
+#interactiveDiv:hover{
+    animation: moveRock 10s;
+}
+@keyframes moveRock{
+    from{top:0px;}
+    to{top:200px;}
+}
+#healingwonders_h1{
+    margin-top:6%;
+    font-size:70px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#healingpowers_p{
+    font-size:17px;
+}
+.healingwonders{
+    margin:10px;
+    text-indent:20px;
+/*MINECRAF TFONT TO BE ADDED OWO UWU CLARENCE WAS HERE */
+}
+#containerimg{
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image:url('header.png');
+    display:fixed;
+    height:95vh;
+    width:100vw;
+    overflow:hidden;
+    margin-top:2.8%;
+    color:white;
+    font-weight:bolder;
+}

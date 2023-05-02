@@ -46,31 +46,25 @@
     background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%) !important;
     animation:slidebg 5s linear infinite;
     transition: 0.5s !important;
-    
+    color: #000000 !important;
 }
 .btn-primary.rainbow:hover {
 
     background-image: linear-gradient(90deg, #025b79 0%, #8a7102 49%, #8f2b2b 80%, #005c7a 100%) !important;
     animation:slidebg 5s linear infinite;
     transition: 0.5s !important;
-}
-.btn-primary.rainbow a{
-    color: #000000 !important;
-}
-.btn-primary.rainbow a:hover{
     color: #FFFFFF !important;
 }
+
 @keyframes slidebg {
   to {
     background-position:20vw;
   }
 }
-
-
 </style>
-<nav class="navbar1 text-light navbar-expand-sm navbar-dark bg-dark-subtle border mb-5 py-1 w-100 fixed-top" >
+<nav class="navbar1 text-light navbar-expand-sm navbar-dark bg-dark-subtle border border-dark py-1 w-100 fixed-top" data-bs-theme="dark">
     <a class="navbar-brand ms-2" href="https://smc-26.github.io/sciencefair2023/">
-        <img src="https://smc-26.github.io/sciencefair2023/img/logo.png" class="img" alt="logo" width="30" height="30">
+        <img src="https://smc-26.github.io/sciencefair2023/x-assets/img/logo.png" class="img" alt="logo" width="30" height="30">
     </a>
     <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
         <span class="navbar-toggler-icon"></span>
@@ -118,16 +112,12 @@
                     <li><a class="dropdown-item" href="https://smc-26.github.io/sciencefair2023/Sodium-5/">Group 5</a></li>
               </ul>
             </li>
-
-
         </ul>
         <ul class="navbar-nav ms-auto"> <!--goes to the right side of the navbar-->
             <li class="nav-item me-3">
-                <button type="button" class="btn btn-primary p-0 rainbow text-dark">
-                    <a href="404.html" class="nav-link px-2">
+                <button type="button" class="btn btn-primary rainbow px-2" onclick="redirect()">
                         <i class="bi bi-dice-5"></i>
                         Surprise Me!
-                    </a>
                 </button>
             </li>
         </ul>
