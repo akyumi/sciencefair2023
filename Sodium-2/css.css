@@ -187,6 +187,7 @@ html, body{
 }
 .Doxx{
     height: 100%;
+    width: 100%;
 }
 .DoxxText{
     text-align: center;
@@ -194,46 +195,72 @@ html, body{
     margin-left: 10px;
     width: 300px;
     position: relative;
-    top: 0%;
-}
-.Cut{
+    top: -2%;
     display: inline-block;
+    font-size: larger;
 }
-.Split{
-    display: inline-block;
+.Doxxed{
+    position: relative;
+    top: 50%;
 }
 .Floro{
-    background-color: #FFAB00;
+    margin-right: 3%;
     position: relative;
-    right: 0%;
+    top: -5%;
+    background-color: #FFAB00;
+    margin-left: 10%;
     height: 200px;
     width: 300px;
     color: white;
+    text-align: center;
     display: inline-block;
 }
 .Eve{
+    margin-right: 3%;
+    position: relative;
+    top: -5%;
     background-color: #4A9D83;
+    height: 200px;
+    width: 300px;
     color: white;
+    text-align: center;
     display: inline-block;
 }
 .Zild{
+    position: relative;
+    top: -5%;
     background-color: #03C5AD;
+    height: 200px;
+    width: 300px;
     color: white;
+    text-align: center;
     display: inline-block;
 }
 .Bato{
+    margin-left: 31%;
+    margin-right: 3%;
     background-color: #00B2C7;
+    height: 200px;
+    width: 300px;
     color: white;
+    text-align: center;
     display: inline-block;
 }
 .Sam{
+    margin-right: 3%;
     background-color: #FCE074;
+    height: 200px;
+    width: 300px;
     color: white;
+    text-align: center;
     display: inline-block;
 }
 .Marita{
     background-color: #73E2AC;
+    height: 200px;
+    width: 300px;
     color: white;
+    text-align: center;
     display: inline-block;
 }
 .Soil{
