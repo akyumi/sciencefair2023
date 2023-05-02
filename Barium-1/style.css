@@ -2,6 +2,8 @@
 
 :root {
     --text-color: #444440;
+    --bgcolor: #f8e6b8;
+    --bgcolor2: #ecd495;
 }
 
 * {
@@ -16,11 +18,7 @@
 }
 
 body {
-    background-color:#f8e6b8;
-}
-
-nav     {
-    color: #fff;
+    background-color: var(--bgcolor);
 }
 
 .sidebar {
@@ -29,7 +27,7 @@ nav     {
     bottom: 0;
     left: 0;
     height: 100vh;
-    background-color:#FFF0CA;
+    background-color:#e5870b;
     width: 90px;
     overflow: hidden;
     transition: width 0.2s linear;
@@ -39,8 +37,8 @@ nav     {
 }
 
 .sidebar ul {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .sidebar a {
@@ -71,7 +69,7 @@ nav     {
 }
 
 .sidebar a:hover {
-    background: #DBD2B8;
+    background: #f5bb50;
     transition: all 0.2s ease;
 }
 
@@ -89,7 +87,7 @@ nav     {
 }
 
 .home .text {
-    padding-top: 187px;
+    padding-top: 250px;
     padding-left: 150px;
     width: 60%;
     color: var(--text-color);
@@ -104,8 +102,7 @@ nav     {
 .home .text h1 {
 	font-weight: bold;
 	font-size: 5rem;
-    line-height: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .home .text h3 {
@@ -132,13 +129,14 @@ nav     {
 .section-title {
     text-align: center;
     padding-bottom: 30px;
+    padding-left: 90px;
 }
   
 .section-title h2 {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin-bottom: 0    ;
     padding-bottom: 25px; 
     position: relative;
     color: var(--text-color);
@@ -152,7 +150,7 @@ nav     {
     display: block;
     width: 120px;
     height: 1px;
-    background: #dddddd;
+    background: #ffffff;
     bottom: 1px;
     left: calc(50% - 60px);
 }
@@ -170,7 +168,8 @@ nav     {
 
 .desc {
     padding-top: 50px;
-	width: 100%;
+    padding-bottom: 37px;
+    width: 100%;
 }
 
 .desc .container {
@@ -186,18 +185,57 @@ nav     {
 }
 
 .conc {
-    padding-top: 37px;
+    padding-top: 50px;
 	width: 100%;
+    background: #ecd495;
+    padding-bottom: 37px;
+    align-items: center;
+}
+
+.conc .container {
+    padding-top: 20px;
+    padding-left: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+.conc .container .row {
+    float: left;
+    width: 33.33%;
+    margin: 0 20px;
+}
+
+.conc .fas {
+    width: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.conc .container h2 {
+    color: var(--text-color);
+    font-weight: bold;
+    display: table;
+    width: 200px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-bottom: 15px;
 }
 
 .app {
-    padding-top: 50px;
+    padding-top: 45px;
 	width: 100%;
 }
 
 .ref {
     padding-top: 50px;
 	width: 100%;
+    background: #ecd495;
 }
 
 .res {

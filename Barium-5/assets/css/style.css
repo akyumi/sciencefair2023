@@ -418,6 +418,10 @@ section {
   margin-top: 40px;
 }
 
+.main-img {
+  margin: 0 auto;
+  display: block;
+}
 
 #about {
   background: #fff;
@@ -431,8 +435,8 @@ section {
 }
 
 #about .about-img img {
-  max-width: 100%;
-  margin: 0 !important;
+  margin: 0 auto !important;
+  display: block;
 }
 
 @media (max-width: 720px) {
@@ -441,7 +445,6 @@ section {
   }
 
   #about .about-img img {
-    margin-left: 0;
     padding-bottom: 30px;
   }
 }
