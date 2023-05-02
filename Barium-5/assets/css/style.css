@@ -47,7 +47,7 @@ h6 {
 }
 
 hr {
-  margin: 0;
+  margin: 3rem 0 3rem;
 }
 
 /*--------------------------------------------------------------
@@ -388,20 +388,29 @@ section {
 }
 
 @media screen and (min-width: 1920px) {
+  .about-content h2 {
+    font-size: 2.8vw;
+  }
   .maintitle h3 {
     font-size: 2.5vw;
   }
-}
-
-@media screen and (max-width: 1919px) {
-  .maintitle h3 {
-    font-size: 3vw;
+  .about-text {
+    font-size: 2.5vh;
   }
 }
 
 @media screen and (max-width: 1919px) {
   .maintitle h3 {
     font-size: 3vw;
+  }
+  .maintitle h4 {
+    font-size: 2.5vw;
+  }
+  .about-content h2 {
+    font-size: 3.8vw;
+  }
+  .about-text {
+    font-size: 3.5vh;
   }
 }
 
@@ -430,8 +439,6 @@ section {
 
 #about .about-img {
   margin: auto;
-  max-height: 100%;
-  max-width: 100%;
 }
 
 #about .about-img img {
@@ -461,32 +468,12 @@ section {
 }
 
 
-@media screen and (min-width: 1920px) {
-  .about-content h2 {
-    font-size: 4.5vh;
-  }
-}
-
-@media screen and (max-width: 1919px) {
-  .about-content h2 {
-    font-size: 6vh;
-  }
-}
-
-
-
 #about .about-text {
-  line-height: 26px;
   margin-bottom: 15px;
-  font-size: 120%;
 }
 
 #about .about-text:last-child {
   margin-bottom: 0;
-}
-
-.parimgl {
-  margin: 40px 40px 0 0 ;
 }
 
 
@@ -518,7 +505,7 @@ section {
 
 @media screen and (min-width: 1920px) {
   .carousel-container  {
-    height: 70vh;
+    height: 65vh;
   }
   .carousel-container h3 {
     font-size: 3vw;
@@ -531,9 +518,9 @@ section {
   }   
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 1919px) {
   .carousel-container  {
-    height: 80vh;
+    height: 85vh;
   }
   .carousel-container h3 {
     font-size: 4vw;
@@ -548,7 +535,7 @@ section {
 
 @media screen and (max-width: 719px) {
   .carousel-container  {
-    height: 80vh;
+    height: 90vh;
   }
   .carousel-container h3 {
     font-size: 10vw;
@@ -563,17 +550,19 @@ section {
 
 
 .item1 {
-  background-image: url("../img/airplane.png");
+  background-image: url("../img/airplane.jpg");
+  background-size: cover;
 }
 
 .item2 {
   background-image: url("../img/carousel-2.jpg");
+  background-size: cover;
 }
 
 .item3 {
   background-image: url("../img/lastslong.jpg");
+  background-size: cover;
 }
-
 
 
 /* Showcases Section
