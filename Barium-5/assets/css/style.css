@@ -319,30 +319,30 @@ section {
   );
   background-size: 150% 5%;
   animation:  10s linear infinite;
-  -webkit-animation: rainbow 10s linear infinite;
-  -z-animation: rainbow 10s linear infinite;
-  -o-animation: rainbow 10s linear infinite;
+  -webkit-animation: rainbow2 10s linear infinite;
+  -z-animation: rainbow2 10s linear infinite;
+  -o-animation: rainbow2 10s linear infinite;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-@-webkit-keyframes rainbow {
+@-webkit-keyframes rainbow2 {
   0%{background-position:0% 82%}
   50%{background-position:100% 19%}
   100%{background-position:0% 82%}
 }
-@-moz-keyframes rainbow {
+@-moz-keyframes rainbow2 {
   0%{background-position:0% 82%}
   50%{background-position:100% 19%}
   100%{background-position:0% 82%}
 }
-@-o-keyframes rainbow {
+@-o-keyframes rainbow2 {
   0%{background-position:0% 82%}
   50%{background-position:100% 19%}
   100%{background-position:0% 82%}
 }
-@keyframes rainbow { 
+@keyframes rainbow2 { 
   0%{background-position:0% 82%}
   50%{background-position:100% 19%}
   100%{background-position:0% 82%}
