@@ -33,7 +33,7 @@ body, html{
     font-family: 'Roboto', sans-serif;
 }
 .bg-container{
-    min-height: 100vh !important;
+    /* min-height: 100vh !important; */
     display: flex !important;
     width: 100% !important;
     flex-direction: column !important;
