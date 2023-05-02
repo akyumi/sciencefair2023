@@ -8,8 +8,6 @@ body {
 header {
     position: relative;
     background-color: black;
-    height: 50vh;
-    min-height: 25rem;
     width: 100%;
     overflow: hidden;
   }
@@ -59,9 +57,16 @@ header {
     }
   }
 
+  .title{
+    margin:5px;
+    text-align: end;
+    text: bottom;
+  }
+
   .maintitle {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: 100;
+    margin:5px;
   }
 
 
