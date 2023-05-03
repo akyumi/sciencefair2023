@@ -1,10 +1,3 @@
-/**
-* Template Name: Selecao
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -65,7 +58,7 @@
    * Scrolls to an element with header offset
    */
   const scrollto = (el) => {
-    let header = select('#header')
+    let header = select('#header');
     let offset = header.offsetHeight
 
     let elementPos = select(el).offsetTop
@@ -78,7 +71,7 @@
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
    */
-  let selectHeader = select('#header')
+  let selectHeader = select('#header');
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 100) {
@@ -106,25 +99,6 @@
     window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
   }
-
-  /**
-   * Mobile nav toggle
-   */
-  on('click', '.mobile-nav-toggle', function(e) {
-    select('#navbar').classList.toggle('navbar-mobile')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
-  })
-
-  /**
-   * Mobile nav dropdowns activate
-   */
-  on('click', '.navbar .dropdown > a', function(e) {
-    if (select('#navbar').classList.contains('navbar-mobile')) {
-      e.preventDefault()
-      this.nextElementSibling.classList.toggle('dropdown-active')
-    }
-  }, true)
 
   /**
    * Scrool with ofset on links with a class name .scrollto
@@ -156,89 +130,6 @@
   });
 
   /**
-   * Porfolio isotope and filter
-   */
-  window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
-      });
-
-      let portfolioFilters = select('#portfolio-flters li', true);
-
-      on('click', '#portfolio-flters li', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
-
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-        portfolioIsotope.on('arrangeComplete', function() {
-          AOS.refresh()
-        });
-      }, true);
-    }
-
-  });
-
-  /**
-   * Initiate portfolio lightbox 
-   */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
-
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      }
-    }
-  });
-
-  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
@@ -248,6 +139,27 @@
       once: true,
       mirror: false
     })
+  });
+
+  document.addEventListener("DOMContentLoaded", function(){
+    var myCarousel = document.getElementById("heroCarousel");
+    myCarousel.addEventListener("slid.bs.carousel", function(){
+      if (document.getElementById("hcc-1").classList.contains('active')){
+        document.getElementById("hero").style.background = `linear-gradient(0deg, rgba(156, 115, 82, 0.95), rgba(142, 113, 82, 0.95)), url(assets/img/concepts-1.jpg)`;
+      }
+      else if (document.getElementById("hcc-2").classList.contains('active')){
+        document.getElementById("hero").style.background = `linear-gradient(0deg, rgba(156, 115, 82, 0.95), rgba(142, 113, 82, 0.95)), url(assets/img/concepts-2.jpg)`;
+      }
+      else if (document.getElementById("hcc-3").classList.contains('active')){
+        document.getElementById("hero").style.background = `linear-gradient(0deg, rgba(156, 115, 82, 0.95), rgba(142, 113, 82, 0.95)), url(assets/img/concepts-1.jpg)`;
+      }
+      else if (document.getElementById("hcc-4").classList.contains('active')){
+        document.getElementById("hero").style.background = `linear-gradient(0deg, rgba(156, 115, 82, 0.95), rgba(142, 113, 82, 0.95)), url(assets/img/concepts-1.jpg)`;
+      }
+      else if (document.getElementById("hcc-5").classList.contains('active')){
+        document.getElementById("hero").style.background = `linear-gradient(0deg, rgba(156, 115, 82, 0.95), rgba(142, 113, 82, 0.95)), url(assets/img/concepts-5.jpg)`;
+      }
+    });
   });
 
 })()
