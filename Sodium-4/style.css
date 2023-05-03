@@ -29,6 +29,14 @@ hgroup{
 h1, h3{
 	font-family: 'Raleway', sans-serif;
 }
+.concepts_contents{
+	margin-left: 100px;
+}
+p {
+	text-align: justify;
+	text-justify: inter-word;
+	text-indent: 50px;
+}
 #title{
 	font-size: 70px;
 }
