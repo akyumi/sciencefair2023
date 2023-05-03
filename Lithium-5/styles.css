@@ -172,6 +172,10 @@ nav #theme-switcher:hover {
   opacity: 80%;
 }
 
+.bgcolor {
+  background: 245, 245, 245, 0.3;
+}
+
 /*different*/
 .tm-banner-section {
   display: -webkit-box;
