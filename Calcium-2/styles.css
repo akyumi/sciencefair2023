@@ -6,7 +6,7 @@ article {
     margin-top: 50px;
 
     background-color: #e1d5cb;
-
+    width: 100%;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.1rem;
@@ -120,7 +120,7 @@ p {
     filter: blur(45px);
     mix-blend-mode: soft-light;
 }
-#stars {
+.stars {
     position: absolute;
     left: 0;
     right: 0;
@@ -130,9 +130,14 @@ p {
     height: 900px;
     width: 1500px;
 
-    opacity: 0;
     mix-blend-mode: hard-light;
     filter: blur(-20px);
+}
+#stars1 {
+    opacity: 0.3;
+}
+#stars2 {
+    opacity: 0;
 }
 
 #container1 {
@@ -165,7 +170,7 @@ p {
 
     margin: auto;
 }
-.time-button-div {
+.timebuttondiv {
     overflow: hidden;
     margin: 20px 0px;
 
@@ -176,12 +181,12 @@ p {
 
     transition: all 0.5s ease-out;
 }
-.time-button-div button {
+.timebutton {
     height: 35px;
     width: 35px;
 
     background-color: rgba(0, 0, 0, 0);
-    border: 3px solid black;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 25px;
 }
 .time-button-div:hover {
@@ -224,10 +229,30 @@ p {
     background-color: blue;
 }
 
-#container2 {
-    z-index: 2;
+#container2{
+    background-color: antiquewhite; 
+    padding-top: 200px; 
+}
 
-    padding-top: 200px;
-
+#container2 p, #container2 img{
+    display: block;
+    width: 94%;
+    padding-left: 6%;
     background-color: antiquewhite;
+}
+
+#container2 h2{
+    display: block;
+    width: 100%;
+    padding-left: 55px;
+    background-color: antiquewhite;
+}
+
+footer{
+    display: block;
+    text-align: justify;
+    padding: 8px 7px;
+    background: #252a2b;
+    color: rgb(183, 183, 183);
+    font-size: 20px;
 }

@@ -26,11 +26,11 @@ html, body{
 .And-I-think-to-myself{
     float: left;
     width: 40%;
-    height: 100%;
+    height: 80%;
 }
 .What-a-wonderful-world{
-    margin-top: 6em;
     text-align: center;
+    height: 80%;
 }
 .Everything-is-on-fire{
     color: #4A9D83;
@@ -38,6 +38,7 @@ html, body{
 .Plant{
     position: relative;
     left: -10%;
+    bottom: -34%;
 }
 .Zero{
     height: 100%;
@@ -55,7 +56,6 @@ html, body{
     height: 100%;
     width: 33%;
     display: inline-block;
-    clear: left;
 }
 .One-Pic{
     height: 144px;
@@ -69,7 +69,6 @@ html, body{
     height: 100%;
     width: 34%;
     display: inline-block;
-    clear: left;
 }
 .Three{
     background-color: #00B2C7;
@@ -77,10 +76,8 @@ html, body{
     height: 100%;
     width: 33%;
     display: inline-block;
-    clear: left;
 }
 .BigText{
-    margin-top: 1em;
     color: #73E2AC;
     margin-left: 10px;
 }
@@ -110,14 +107,30 @@ html, body{
     color: white;
     text-align: center;
 }
-.Phsynth{
-    height: 100%;
+.MargTop{
+    margin-top: 0;
 }
-.Flower{
+.MargBott{
+    margin-bottom: 0%;
+}
+.Phsynth{
+    margin-top: 0;
     height: 100%;
+    background-image: url(SynthBack.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Leaf{
+    height: 100%;
+    background-image: url(Leaf.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .Climate{
     height: 100%;
+    background-image: url(AgriBack.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .VVPH{
     background-color: black;
@@ -146,10 +159,16 @@ html, body{
     text-align: center;
 }
 .DNA{
-    height: 100%;
+    height: 110%;
+    background-image: url(DNABack.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .Future{
     height: 100%;
+    background-image: url(EngiBack.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .VVVPH{
     background-color: black;
@@ -179,62 +198,134 @@ html, body{
 }
 .Game{
     height: 100%;
+    background-color: #00B2C7;
 }
-.TextPH, .SoilText{
+.TextPH{
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+.Button{
     text-align: center;
     position: relative;
     top: 50%;
+    left: 45%;
+    font-size: 2em;
+}
+.Hide{
+    display: none;
 }
 .Doxx{
-    height: 100%;
+    height: 130%;
+    background-image: url(DoxxBack.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom 10%;
+}
+.DoxxHeader{
+    text-align: center;
+    width: 35%;
+    font-size: 600%;
+    color: #4A9D83;
+    float: left;
 }
 .DoxxText{
     text-align: center;
     color: #03C5AD;
     margin-left: 10px;
-    width: 300px;
+    width: 35%;
+    height: fit-content;
     position: relative;
-    top: 0%;
+    top: -2%;
+    font-size: 30px;
+    clear: left;
 }
-.Cut{
-    display: inline-block;
+.SmallPlant{
+    height: 37px;
+    width: 33px;
+    position: relative;
+    top: -15%;
 }
-.Split{
-    display: inline-block;
+.Info{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: small;
 }
 .Floro{
-    background-color: #FFAB00;
     position: relative;
-    right: 0%;
-    height: 200px;
-    width: 300px;
+    top: -35%;
+    margin-right: 3%;
+    margin-left: 43%;
+    height: 250px;
+    width: 250px;
+    background-color: #FFAB00;
     color: white;
+    text-align: center;
     display: inline-block;
 }
 .Eve{
+    margin-right: 3%;
+    position: relative;
+    top: -35%;
     background-color: #4A9D83;
+    height: 250px;
+    width: 250px;
     color: white;
+    text-align: center;
     display: inline-block;
 }
 .Zild{
+    position: relative;
+    top: -35%;
     background-color: #03C5AD;
+    height: 250px;
+    width: 250px;
     color: white;
+    text-align: center;
     display: inline-block;
 }
 .Bato{
+    position: relative;
+    top: -36%;
+    margin-left: 43%;
+    margin-right: 3%;
     background-color: #00B2C7;
+    height: 250px;
+    width: 250px;
     color: white;
+    text-align: center;
     display: inline-block;
 }
 .Sam{
+    position: relative;
+    top: -34%;
+    margin-right: 3%;
     background-color: #FCE074;
+    height: 250px;
+    width: 250px;
     color: white;
+    text-align: center;
     display: inline-block;
 }
 .Marita{
+    position: relative;
+    top: -24%;
     background-color: #73E2AC;
+    height: 250px;
+    width: 250px;
     color: white;
+    text-align: center;
     display: inline-block;
+}
+.Cactus{
+    position: relative;
+    top: -68%;
+    left: 15%;
+}
+.Dirt{
+    position: relative;
+    top: -73%;
+    width: 100%;
 }
 .Soil{
     height: 100%;
@@ -242,6 +333,9 @@ html, body{
 }
 .SoilText{
     color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
 }
 .Salt{
     position: absolute !important;

@@ -15,7 +15,7 @@ a
 ```
 2. Lastly, in your HTML file, insert the Javascript Function call to add the navigation bar. The ideal place to insert the code would be just below the opening `<body>` element.
 ```md
-<script>addNavbar();</script>
+<script>addNavbar()</script>
 ```
 ### In summary...
 The file structure with these modifications should look like this:
@@ -29,7 +29,7 @@ The file structure with these modifications should look like this:
       ...
   </head>
   <body>
-      <script>addNavbar();</script>
+      <script>addNavbar()</script>
       ...
   </body>
 </html>

@@ -65,3 +65,9 @@ body {
 @media only screen and (max-width: 576px) {
     #liquid3-pics {width: 100%;}
 }
+.dummy{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+

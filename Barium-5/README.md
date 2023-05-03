@@ -3,7 +3,7 @@
 
 ![HOLY COW](https://media.discordapp.net/attachments/877147396449116210/934059063958990878/unknown.png)
 
-## Progress: 50% HALFWAYYYY
+## Progress: 65% 
 
 For now the website looks like a template but its gonna be an original webpage trust me :))
 
@@ -17,19 +17,20 @@ For now the website looks like a template but its gonna be an original webpage t
 
 - About page
 
-**Under construction:**
-
 - Carousel
 
 - About Us
+
+**Under construction:**
+
+- Footer
 
 **Not added:**
 
 - Modals
 
-- Footer
 
-### Lines of original code added: 1,050
+### Lines of original code added: 1,149
 
 ## Members and Credits
 
@@ -37,10 +38,10 @@ For now the website looks like a template but its gonna be an original webpage t
 
 - Knight Arensol: 3D models, design
 
-- Merielle Cocjin: content
+- Merielle Cocjin: introduction content
 
-- Lavinia Elizan: content
+- Lavinia Elizan: carousel content
 
-- Rhyss Lopez: content
+- Rhyss Lopez: coder, design
 
-- Annika Bamboa: content
+- Annika Bamboa: general content
