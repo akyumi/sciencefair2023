@@ -5,6 +5,7 @@ body, html {
 }
 
 
+
 header {
     position: relative;
     background-color: black;
@@ -62,23 +63,24 @@ header {
   .title{
     margin:5px;
   }
-
+/* wnt_kai was here */
   .maintitle {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    margin:5px;
     text-align:right;
-    padding-right:5px;
-    padding-bottom:10px;
+    padding-right:1vh;
+    padding-bottom:2vh;
     color: rgba(255, 255, 255, 0.925);
+
   }
 
 .namemain{
     text-align: right;
     font-family: 'Poppins', sans-serif;
+    font-weight: 100;
     opacity: 0.8;
     background-color: rgba(2, 2, 2, 0.63);
-    padding:2px;
+    padding:0.5v;
     border-radius: 8px;
 }
 
@@ -86,41 +88,7 @@ header {
   color: rgba(255, 255, 255, 0.377);
 }
 
-.nameanm {
-    text-decoration: none;
-    font-weight: bold;
-    color:unset;
-    padding:2px;
-    text-align:right;
-}
 
-  .nameanm::after {
-    text-decoration: none;
-    content: '';
-    position: relative;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: gold;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-    border-radius: 5px;
-    padding-bottom: 0.5px;
-  }
-  
-  .nameanm:hover {
-    position: relative;
-    margin: 1px;
-    transform: scale(1.1);
-    transition: all ease 300ms;
-  }
-  .nameanm:hover::after {
-    position: absolute;
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
   
 
 .pnav {
@@ -132,6 +100,7 @@ article {
   font-family: Poppins, sans-serif;
 }
 
+/* qkvyj jahup tylnt ecevm lxljx romhw meybw ejtji jcvse ooite efhlq vrxtg zskkc dhsnc aasxp zafas qoxjx kunnj wuxja rbepa gxjug ssufo wemsm txlts azjcw cenmf oympf drnqy jmwjh qtlbq ttvkg xrjxh hyaeh jotlk todoi isuks ws */
 
 
 

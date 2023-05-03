@@ -1,3 +1,4 @@
+![alt text](https://smc-26.github.io/sciencefair2023/x-assets/img/logo.png "PSHS-SMC Campus Logo")
 # Science Fair 2023 Website
 link to home page: https://smc-26.github.io/sciencefair2023/
 ## Add a Group Folder
@@ -7,7 +8,7 @@ link to home page: https://smc-26.github.io/sciencefair2023/
 ## Adding the Website Navbar
 **Edit: the files and file links are modified to simplify the process.**
 To promote a uniform experience across all of the research pages published through this repository, a universal navigation bar will be mandatory to maintain seamless acess throughout the whole site. In order to make this work for your group's webpage, follow these instructions:
-a
+
 1. As the navigation bar is dependent on the use of Bootstrap for it to work properly, you need to import both the CSS and Javascript Files. For the Bootstrap CSS and Javascript, insert the code below inside your web page's `<head>`. The Bootstrap base Javascript code and Navbar function has been combined into one for ease of use:
 ```md
 <link href="https://smc-26.github.io/sciencefair2023/bootstrap.css" rel="stylesheet">
@@ -15,7 +16,7 @@ a
 ```
 2. Lastly, in your HTML file, insert the Javascript Function call to add the navigation bar. The ideal place to insert the code would be just below the opening `<body>` element.
 ```md
-<script>addNavbar();</script>
+<script>addNavbar()</script>
 ```
 ### In summary...
 The file structure with these modifications should look like this:
@@ -29,7 +30,7 @@ The file structure with these modifications should look like this:
       ...
   </head>
   <body>
-      <script>addNavbar();</script>
+      <script>addNavbar()</script>
       ...
   </body>
 </html>
