@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 body, html {
     background-color: rgb(44, 44, 44);
+    
 }
 
 
@@ -98,7 +99,12 @@ article {
   font-family: Poppins, sans-serif;
 }
 
-/* qkvyj jahup tylnt ecevm lxljx romhw meybw ejtji jcvse ooite efhlq vrxtg zskkc dhsnc aasxp zafas qoxjx kunnj wuxja rbepa gxjug ssufo wemsm txlts azjcw cenmf oympf drnqy jmwjh qtlbq ttvkg xrjxh hyaeh jotlk todoi isuks ws */
+#contentpart {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  width:100vw;
+}
 
+/* qkvyj jahup tylnt ecevm lxljx romhw meybw ejtji jcvse ooite efhlq vrxtg zskkc dhsnc aasxp zafas qoxjx kunnj wuxja rbepa gxjug ssufo wemsm txlts azjcw cenmf oympf drnqy jmwjh qtlbq ttvkg xrjxh hyaeh jotlk todoi isuks ws */
 
 
