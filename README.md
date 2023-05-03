@@ -1,5 +1,14 @@
 
 # ![alt text](https://raw.githubusercontent.com/SMC-26/sciencefair2023/deployment/x-assets/img/smc-logo.png "PSHS-SMC Campus Logo") Science Fair 2023 Website
+## Project Rubrics
+
+| Criteria   | Above Std | Meets Std | Below Std | Non Std   |
+|            |     5     |     4     |     3     |     2     |
+|  :---:     |   :---:   |   :---:   |   :---:   |   :---:   |
+| Simplicity | Content is simple and design is easy to understand | Content is on point | Web page is somewhat busy | Web page is too busy |
+
+
+
 link to home page: https://smc-26.github.io/sciencefair2023/
 ## Add a Group Folder
 1. Get invited into the [SMC-26](https://github.com/SMC-26) GitHub Organization. Consult your CS3 teacher or your section representative on how to get invited.
@@ -8,7 +17,7 @@ link to home page: https://smc-26.github.io/sciencefair2023/
 ## Adding the Website Navbar
 **Edit: the files and file links are modified to simplify the process.**
 To promote a uniform experience across all of the research pages published through this repository, a universal navigation bar will be mandatory to maintain seamless acess throughout the whole site. In order to make this work for your group's webpage, follow these instructions:
-a
+
 1. As the navigation bar is dependent on the use of Bootstrap for it to work properly, you need to import both the CSS and Javascript Files. For the Bootstrap CSS and Javascript, insert the code below inside your web page's `<head>`. The Bootstrap base Javascript code and Navbar function has been combined into one for ease of use:
 ```md
 <link href="https://smc-26.github.io/sciencefair2023/bootstrap.css" rel="stylesheet">
