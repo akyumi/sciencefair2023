@@ -38,7 +38,7 @@ html, body{
 .Plant{
     position: relative;
     left: -10%;
-    bottom: -34%;
+    bottom: -26%;
 }
 .Zero{
     height: 100%;
@@ -52,6 +52,7 @@ html, body{
 }
 .One{
     background-color: #73E2AC;
+    margin-left: -1%;
     margin-right: -4px;
     height: 100%;
     width: 33%;
@@ -67,7 +68,7 @@ html, body{
     background-color: #03C5AD;
     margin-right: -4px;
     height: 100%;
-    width: 34%;
+    width: 35%;
     display: inline-block;
 }
 .Three{
@@ -76,6 +77,16 @@ html, body{
     height: 100%;
     width: 33%;
     display: inline-block;
+}
+.Learn{
+    font-size: 5em;
+    position: relative;
+    top: -95%;
+    left: 15px;
+    color: white;
+    text-align: left;
+    margin: 0%;
+    width: 70%;
 }
 .BigText{
     color: #73E2AC;
@@ -198,6 +209,11 @@ html, body{
 }
 .Game{
     height: 100%;
+    width: 100%;
+    display: none;
+}
+.GamePH{
+    height: 100%;
     background-color: #00B2C7;
 }
 .TextPH{
@@ -224,7 +240,7 @@ html, body{
 }
 .DoxxHeader{
     text-align: center;
-    width: 35%;
+    width: 40%;
     font-size: 600%;
     color: #4A9D83;
     float: left;
@@ -233,7 +249,7 @@ html, body{
     text-align: center;
     color: #03C5AD;
     margin-left: 10px;
-    width: 35%;
+    width: 40%;
     height: fit-content;
     position: relative;
     top: -2%;
@@ -253,7 +269,7 @@ html, body{
 }
 .Floro{
     position: relative;
-    top: -35%;
+    top: -40%;
     margin-right: 3%;
     margin-left: 43%;
     height: 250px;
@@ -261,32 +277,44 @@ html, body{
     background-color: #FFAB00;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
+}
+.FloroText{
+    position: relative;
+    top: 13%;
 }
 .Eve{
     margin-right: 3%;
     position: relative;
-    top: -35%;
+    top: -40%;
     background-color: #4A9D83;
     height: 250px;
     width: 250px;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
+}
+.EveText{
+    position: relative;
+    top: 13%;
 }
 .Zild{
     position: relative;
-    top: -35%;
+    top: -38%;
     background-color: #03C5AD;
     height: 250px;
     width: 250px;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
+}
+.ZildText{
+    position: relative;
+    top: 10%;
 }
 .Bato{
     position: relative;
-    top: -36%;
+    top: -41%;
     margin-left: 43%;
     margin-right: 3%;
     background-color: #00B2C7;
@@ -294,41 +322,55 @@ html, body{
     width: 250px;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
+}
+.BatoText{
+    position: relative;
+    top: 13%;
 }
 .Sam{
     position: relative;
-    top: -34%;
+    top: -39%;
     margin-right: 3%;
     background-color: #FCE074;
     height: 250px;
     width: 250px;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
+}
+.SamText{
+    position: relative;
+    top: 10%;
 }
 .Marita{
     position: relative;
-    top: -24%;
+    top: -29%;
     background-color: #73E2AC;
     height: 250px;
     width: 250px;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
+}
+.MaritaText{
+    position: relative;
+    top: -11%;
 }
 .Cactus{
+    border: none;
+    background-color: transparent;
     position: relative;
-    top: -68%;
+    top: -3%;
     left: 15%;
 }
 .Dirt{
     position: relative;
-    top: -73%;
+    top: -8%;
     width: 100%;
 }
 .Soil{
-    height: 100%;
+    height: 110%;
     background-color: #884F21;
 }
 .SoilText{

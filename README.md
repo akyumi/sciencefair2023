@@ -1,4 +1,17 @@
-# Science Fair 2023 Website
+
+# ![alt text](https://raw.githubusercontent.com/SMC-26/sciencefair2023/deployment/x-assets/img/smc-logo.png "PSHS-SMC Campus Logo") Science Fair 2023 Website
+## Project Rubrics
+### Project Proper (40 Pts Total)
+| Criteria   | Above Standard (5pts) | Meets Standard (4pts)| Below Standard (3pts)| Non Standard (2pts) |
+|  :---:     |   :---:   |   :---:   |   :---:   |   :---:   |
+| Simplicity (5pts) | Content is simple and design is easy to understand | Content is on point | Web page is somewhat busy | Web page is too busy |
+| Navigation (5pts) | content is presented in a clear manner that is easy to follow; readers can get around your page with ease; there are no blind links   |   content is presented in a clear manner that is easy to follow; navigation is fine; not intuitive   | content is somewhat confusing and difficult to follow; site is somewhat difficult to navigate; too much textual information |   content is confusing and difficult to follow; site is difficult to navigate; not intuitive; large images that take long to load   |
+|  Layout (5pts)    |   Page layout is creative and effective;Layout effects and extends the ideas and content   |   Page layout is interesting and appropriate for content; Layout is appropriate for the content   |   Page layout may be ‘busy’ or unimaginative; Unreflective use of a template   |   Layout of pages is confusing, or cluttered or dull; Layout does not reflect ideas and content, but seems arbitrary   |
+| Functionality (5pts)  |  Functionality intrigues target audience and enhances purpose; Simple and powerful navigation structures make navigation feel intuitive; All functionality, works properly; Creative use of interactivity enhances purpose of the site  |  Functionality is appropriate for target audience and accomplishes the purpose; Simple navigation structures make site quite easy for user; Appropriate use of interactivity for the purpose of the site  |  Navigation structures may be awkward or difficult to use; Some elements of functionality may not work as intended, or may not meet the needs of the target audience  |  User becomes lost in navigating on or between pages; Problems with functionality frustrate the user  |
+|  Audience and Theme (5pts)     |  tone of language appropriate for audience; use of graphics and colors is aligned with the audience and theme; audience and theme are well defined  |  tone of language is mostly appropriate; use of graphics and colors is mostly aligned to the audience and theme  |  audience and theme are not defined or poorly defined through confusing use of tone and language  |  use of graphics and/ or colors is not appropriate for audience and theme  | 
+| Responsiveness (5pts)    |   The page works on mobile phones and tablets as well as in computers with additional mobile accessibility features  |  The page works fine on mobile phones and tablets  |  The page works on mobiles phones and tablets with some issues  |  The page has responsiveness issues that needs to be addressed  |
+
+
 link to home page: https://smc-26.github.io/sciencefair2023/
 ## Add a Group Folder
 1. Get invited into the [SMC-26](https://github.com/SMC-26) GitHub Organization. Consult your CS3 teacher or your section representative on how to get invited.
@@ -7,7 +20,7 @@ link to home page: https://smc-26.github.io/sciencefair2023/
 ## Adding the Website Navbar
 **Edit: the files and file links are modified to simplify the process.**
 To promote a uniform experience across all of the research pages published through this repository, a universal navigation bar will be mandatory to maintain seamless acess throughout the whole site. In order to make this work for your group's webpage, follow these instructions:
-a
+
 1. As the navigation bar is dependent on the use of Bootstrap for it to work properly, you need to import both the CSS and Javascript Files. For the Bootstrap CSS and Javascript, insert the code below inside your web page's `<head>`. The Bootstrap base Javascript code and Navbar function has been combined into one for ease of use:
 ```md
 <link href="https://smc-26.github.io/sciencefair2023/bootstrap.css" rel="stylesheet">

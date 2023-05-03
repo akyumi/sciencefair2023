@@ -24,6 +24,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/mdb.min.css" rel="stylesheet">
   <link href="https://smc-26.github.io/sciencefair2023/Barium-3/styles.css" rel="stylesheet">
   <link href="https://smc-26.github.io/sciencefair2023/bootstrap.css" rel="stylesheet">
   <script src="https://smc-26.github.io/sciencefair2023/bootstrap.js"></script>
@@ -32,19 +33,12 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo">
-        <h1><a href="index.html">Selecao</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <!-- .navbar -->
-
+  <header id="header" class="jumbotron bg-cover text-white shadow-lg">
+    <div class="container py-5 text-center">
+        <h1 class="display-4 fw-bold">Fungal Mycelium-Based Insulators</h1>
+        <p class="fs-5 mb-1">A Sustainable Solution for Heat and Sound Control</p>
     </div>
-  </header><!-- End Header -->
+  </header>
 
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
@@ -64,58 +58,78 @@
           </p>
         </div>
       </div>
-
     </div>
   </section>
   <!-- End About Section -->
 
   <!-- ======= Hero Section ======= -->
+  <div class="section-title container" data-aos="zoom-out">
+    <h2>Discussion</h2>
+    <p>EXPANDING THE IDEA</p>
+  </div>
+
   <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
-    <svg class="hero-waves  tpwv" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+    <svg class="hero-waves tpwv" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
       <defs>
         <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
-      </defs>
+      </path></defs>
       <g class="wave1">
         <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
-      </g>
+      </use></g>
       <g class="wave2">
         <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
-      </g>
+      </use></g>
       <g class="wave3">
         <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
-      </g>
+      </use></g>
     </svg>
-    
+
     <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
 
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 5"></button>
+      </div>
+
       <!-- Slide 1 -->
-      <div class="carousel-item active">
+      <div id="hcc-1" class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">The Science Behind <span>Mycelium-Based Insulation Technology</span></h2>
+          <h2 class="animate__animated animate__fadeInDown">Science Behind <span>Mycelium-Based Insulation Technology</span></h2>
+          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div id="hcc-4" class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Ensuring Material Strength and Durability</h2>
           <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
         </div>
       </div>
 
       <!-- Slide 2 -->
-      <div class="carousel-item">
+      <div id="hcc-2" class="carousel-item">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Deep Dive Into The World of Mycelium</h2>
           <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
         </div>
       </div>
 
-      <!-- Slide 3 -->
-      <div class="carousel-item">
+      <!-- Slide 5 -->
+      <div id="hcc-5" class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Implementing Heat and Sound Insulation</h2>
+          <h2 class="animate__animated animate__fadeInDown">Maintaining Sustainibility and Ecofriendliness</h2>
           <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
         </div>
       </div>
 
-      <!-- Slide 4 -->
-      <div class="carousel-item">
+      <!-- Slide 3 -->
+      <div id="hcc-3" class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Ensuring Material Strength and Durability</h2>
+          <h2 class="animate__animated animate__fadeInDown">Implementing Heat and Sound Insulation</h2>
           <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
         </div>
       </div>
@@ -133,16 +147,16 @@
     <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
       <defs>
         <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
-      </defs>
+      </path></defs>
       <g class="wave1">
         <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
-      </g>
+      </use></g>
       <g class="wave2">
         <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
-      </g>
+      </use></g>
       <g class="wave3">
         <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
-      </g>
+      </use></g>
     </svg>
 
   </section>
@@ -324,13 +338,12 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- ETC JS Files -->
+  <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
