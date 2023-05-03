@@ -1,3 +1,4 @@
+![alt text](https://smc-26.github.io/sciencefair2023/x-assets/img/logo.png "PSHS-SMC Campus Logo")
 # Science Fair 2023 Website
 link to home page: https://smc-26.github.io/sciencefair2023/
 ## Add a Group Folder
