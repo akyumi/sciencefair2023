@@ -1,0 +1,235 @@
+/* CC */
+
+.cc {
+    text-decoration: none;
+    font-weight: normal;
+    color:unset;
+    padding:2px;
+    text-align:right;
+}
+
+  .cc::after {
+    text-decoration: none;
+    content: '';
+    position: relative;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    border-radius: 5px;
+    padding-bottom: 0.5px;
+  }
+  
+  .cc:hover {
+    position: relative;
+    margin: 1px;
+    transform: scale(1.1);
+    transition: all ease 300ms;
+  }
+  .cc:hover::after {
+    position: absolute;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+  /* ZD */
+
+  .zd {
+    text-decoration: none;
+    font-weight: normal;
+    color:unset;
+    padding:2px;
+    text-align:right;
+}
+
+    .zd::after {
+    text-decoration: none;
+    content: '';
+    position: relative;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: orangered;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    border-radius: 5px;
+    padding-bottom: 0.5px;
+  }
+  
+  .zd:hover {
+    position: relative;
+    margin: 1px;
+    transform: scale(1.1);
+    transition: all ease 300ms;
+  }
+  .zd:hover::after {
+    position: absolute;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+  /* PDC */
+
+
+  .pdc {
+    text-decoration: none;
+    font-weight: normal;
+    color:unset;
+    padding:2px;
+    text-align:right;
+}
+
+   .pdc::after {
+    text-decoration: none;
+    content: '';
+    position: relative;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: lightgreen;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    border-radius: 5px;
+    padding-bottom: 0.5px;
+  }
+  
+  .pdc:hover {
+    position: relative;
+    margin: 1px;
+    transform: scale(1.1);
+    transition: all ease 300ms;
+  }
+  .pdc:hover::after {
+    position: absolute;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+  /* FE */
+
+  .fe {
+    text-decoration: none;
+    font-weight: normal;
+    color:unset;
+    padding:2px;
+    text-align:right;
+}
+
+.fe::after {
+    text-decoration: none;
+    content: '';
+    position: relative;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    border-radius: 5px;
+    padding-bottom: 0.5px;
+  }
+  
+  .fe:hover {
+    position: relative;
+    margin: 1px;
+    transform: scale(1.1);
+    transition: all ease 300ms;
+  }
+  .fe:hover::after {
+    position: absolute;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+  /* RL  */
+
+  .rl {
+    text-decoration: none;
+    font-weight: normal;
+    color:unset;
+    padding:2px;
+    text-align:right;
+}
+
+  .rl::after {
+    text-decoration: none;
+    content: '';
+    position: relative;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: cyan;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    border-radius: 5px;
+    padding-bottom: 0.5px;
+  }
+  
+  .rl:hover {
+    position: relative;
+    margin: 1px;
+    transform: scale(1.1);
+    transition: all ease 300ms;
+  }
+  .rl:hover::after {
+    position: absolute;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+  /* YP  */
+
+
+  .yp {
+    text-decoration: none;
+    font-weight: normal;
+    color:unset;
+    padding:2px;
+    text-align:right;
+}
+
+  .yp::after {
+    text-decoration: none;
+    content: '';
+    position: relative;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    border-radius: 5px;
+    padding-bottom: 0.5px;
+  }
+  
+  .yp:hover {
+    position: relative;
+    margin: 1px;
+    transform: scale(1.1);
+    transition: all ease 300ms;
+  }
+  .yp:hover::after {
+    position: absolute;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
