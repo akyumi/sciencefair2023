@@ -70,6 +70,11 @@
     color: #ff6666;
 }
 
+.diagram {
+    height: 320px;
+    width: 510px;
+}
+
 body {
     background-image: url(background.jpg);
     background-repeat: no-repeat;
