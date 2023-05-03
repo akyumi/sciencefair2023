@@ -4,25 +4,34 @@ html{
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Bebas Neue', cursive;
 }
 header{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(files/bg.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(files/bg.png);
 	width: 100%;
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 	position: relative;
 }
+/*menu btn*/
+.menu-button{
+	transition: fill 500ms;
+}
+
+.outer-circle {
+	transform-origin: 60px 60px;
+	transition: transform 2s cubic-bezier(0.620, 0.005, 0.000, 1.005);
+}
+
 .title h1{
-	width: 100%;
+	width: 80%;
+	float: right;
 	height: 150px;
-	padding: 250px;
+	padding-top: 250px;
 	color: white;
 	font-family: 'Bebas Neue', cursive;
 	text-shadow: 0 0 10px #003cff;
 	font-size: 100px;
-	text-align: center;
 	animation: glow 1s ease-in-out infinite alternate;
 }
 @-webkit-keyframes glow {
@@ -36,7 +45,27 @@ header{
 }
 .content{
 	  text-align: center;
+	  margin: 100px;
+	  flex: 1;
+	  padding: 20px;
 }
+/*Members of the group*/
+.line{
+	height: 20px;
+	width: 100%;
+	background: linear-gradient(90deg, rgb(0, 81, 255) 50%, transparent 50%);
+	background-repeat: repeat-x;
+	background-size: 16px 8px;
+	animation: borderDance 8s infinite linear;	
+  }
+@keyframes borderDance {
+	0% {
+		background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+	  }
+	  100% {
+		background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+	  }
+  }
 .mem{
 	background-color: #202020;
 	border-radius: 20px;
@@ -45,9 +74,9 @@ header{
 	height: 500px;
 	padding: 15px;
 	color: #bbd6ff;
+	margin-bottom: 40px;
 }
 div.mem h1{
-	border-bottom: 3px dotted rgb(0, 140, 255);
 	text-align: center;
 	padding-bottom: 20px;
 	font-size: 50px;
@@ -56,8 +85,7 @@ div.mem h1{
 div#first, div#second, div#third, div#fourth, div#fifth, div#sixth{
 	width: 25%;
 	float: left;
-	margin: 10px 50px;
-	margin-bottom: 40px;
+	margin: 20px 50px;
 }
 div.mem img{
 	margin: 10px;
@@ -67,4 +95,14 @@ div.mem img{
 }
 div.mem p{
 	font-size: 15px;
+}
+
+/*supposedly the footer*/
+.b-example-divider {
+	width: 100%;
+	height: 3rem;
+	background-color: rgba(0, 0, 0, .1);
+	border: solid rgba(0, 0, 0, .15);
+	border-width: 1px 0;
+	box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
