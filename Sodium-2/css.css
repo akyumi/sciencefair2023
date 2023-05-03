@@ -38,7 +38,7 @@ html, body{
 .Plant{
     position: relative;
     left: -10%;
-    bottom: -34%;
+    bottom: -26%;
 }
 .Zero{
     height: 100%;
@@ -82,7 +82,7 @@ html, body{
     font-size: 5em;
     position: relative;
     top: -95%;
-    left: 10px;
+    left: 15px;
     color: white;
     text-align: left;
     margin: 0%;
@@ -272,7 +272,7 @@ html, body{
     background-color: #FFAB00;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
 }
 .FloroText{
     position: relative;
@@ -287,7 +287,7 @@ html, body{
     width: 250px;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
 }
 .EveText{
     position: relative;
@@ -301,7 +301,7 @@ html, body{
     width: 250px;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
 }
 .ZildText{
     position: relative;
@@ -317,7 +317,7 @@ html, body{
     width: 250px;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
 }
 .BatoText{
     position: relative;
@@ -332,7 +332,7 @@ html, body{
     width: 250px;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
 }
 .SamText{
     position: relative;
@@ -346,20 +346,22 @@ html, body{
     width: 250px;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: none;
 }
 .MaritaText{
     position: relative;
     top: -11%;
 }
 .Cactus{
+    border: none;
+    background-color: transparent;
     position: relative;
-    top: -70%;
+    top: -3%;
     left: 15%;
 }
 .Dirt{
     position: relative;
-    top: -75%;
+    top: -8%;
     width: 100%;
 }
 .Soil{
