@@ -71,7 +71,7 @@ header {
     padding-right:1vh;
     padding-bottom:2vh;
     color: rgba(255, 255, 255, 0.925);
-    font-size:5vw;
+
   }
 
 .namemain{
@@ -82,7 +82,6 @@ header {
     background-color: rgba(2, 2, 2, 0.63);
     padding:0.5v;
     border-radius: 8px;
-    font-size:1.4vw;
 }
 
 .namecomma{
