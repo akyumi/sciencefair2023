@@ -209,6 +209,11 @@ html, body{
 }
 .Game{
     height: 100%;
+    width: 100%;
+    display: none;
+}
+.GamePH{
+    height: 100%;
     background-color: #00B2C7;
 }
 .TextPH{
