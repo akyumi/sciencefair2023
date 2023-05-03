@@ -12,7 +12,9 @@
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <!--<script src="../js/pageloader.js"></script>-->
+    <link href="https://smc-26.github.io/sciencefair2023/bootstrap.css" rel="stylesheet">
+    <script src="https://smc-26.github.io/sciencefair2023/bootstrap.js"></script>
+    <script src="../js/pageloader.js"></script>
     <title>Painless Microneedles Inspired by Mosquitoes</title>
 <!-- ======================================================= Assisted With
   * Template Name: KnightOne
@@ -23,42 +25,19 @@
 ======================================================== -->
 </head>
 <body>
-    <!--header start-->
-    <header>
-        <nav>
-            <a class="logo" href="https://smc-26.github.io/sciencefair2023/">
-                <img src="https://smc-26.github.io/sciencefair2023/x-assets/img/logo.png" class="img" alt="logo">
-            </a>
-		    <ul class="navsec">
-                <li class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Browse
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="#">Placeholder</a></li>
-                        <li><a class="dropdown-item" href="#">Brief Description</a></li>
-                        <li><a class="dropdown-item" href="#">Science Concepts</a></li>
-                        <li><a class="dropdown-item" href="#">Application</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Authors</a></li>
-                <li><img id="theme-switcher" src="media/dark-light_theme1.svg" class="d-llogo light" alt="toggle dark/light mode logo" title="Toggle light/dark mode" onclick="themeSwitch()"></li>
-		    </ul>   
-        </nav>
-    </header>
+    <script>addNavbar();</script>
     <!-- Video Banner -->
     <section class="tm-banner-section" id="tmVideoSection">
         <div class="container tm-banner-text-container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="tm-banner-title">Painless Microneedles Inspired by Mosquitoes</h2>
-                <p class="mx-auto tm-banner-subtitle">
-                This research output was made by Lithium - 5
-                </p>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="tm-banner-title">Painless Microneedles Inspired by Mosquitoes</h2>
+                    <p class="mx-auto tm-banner-subtitle">
+                    This research output was made by Lithium - 5
+                    </p>
+                </div>
             </div>
         </div>
-        </div>
-
         <!-- Video -->
         <video id="hero-vid" autoplay="" loop="" muted>
             <source src="media/polymer.mp4" type="video/mp4" />
@@ -66,8 +45,6 @@
         </video>
     </section>
     <!--navbar here-->
-    <!--header end-->
-    <!--<script>addNavbar();</script>-->
     <main class="mx-auto">
         <!--<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
              make sure that the banner images in the slideshow are of the same dimensions
@@ -105,15 +82,14 @@
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-world"></i></div>
-                        <h4>Lorem Ipsum</h4>
+                        <a href="#portfolio"><h4>Brief Description</h4></a>
                         <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                     </div>
                     </div>
-        
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-file"></i></div>
-                        <h4>Sed ut perspiciatis</h4>
+                        <a href="#portfolio"><h4>Science Concepts</h4></a>
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                     </div>
                     </div>
@@ -127,14 +103,14 @@
             </div>
         </section>
         <!-- End Services Section -->
-        <hgroup class="w-100 mx-auto text-center">
-            <h1 class="display-4">Painless Microneedles Inspired by Mosquitos</h1>
-            <h3 class="display-6 fst-italic">Group 5</h3>
-        </hgroup>
-        <article class="w-100 mx-auto my-4">
-            <hgroup class="w-100 mx-auto text-center">
-                <h3 class="display-4">Brief Description</h3>
-            </hgroup>
+         <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>Brief Description</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
             <p>
                 Conventional or hypodermic needles open through various uses across the medical field. Despite its merits, it also brings forth several issues. One of these is the painful and burdensome insertion on the skin because of its reach to the pain receptors, found deep in the dermis (Waghule et al., 2018). Its long and thick nature prevents comfort and appropriateness of its use on body parts with thinner or more delicate skin, including the face or neck. 
             </p>
@@ -188,6 +164,7 @@
             <h5 class="display-8 fst-italic">Physics</h5>
             <p>
                 Kinematics is also involved in this topic. The mosquito’s proboscis emits vibrations that utilize a back-and-forth motion valued at 20-50 hertz frequency, piercing through the skin. The proboscis’ soft tip helps decrease the pressure applied on the skin and causes less skin deformation. Traditional needles, on the other hand, pierce through the skin in one direction which means that all of the force is directed onto one spot. The pain experienced in needle pricking mainly depends on two factors: the force applied, and the ability of the skin to resist force.  The greater the resistance of the skin, the higher the pain. This is the reason why the puncture of traditional needles causes higher pain compared to mosquito bites. Thus, specific-shaped needles inspired by a mosquito's sting were created to reduce this resistance by half (Kanpur, 2019). 
+                <br><br>
                 <img id="img6" class="image-left" src="media/banner.jpg" alt="nature" class="img-fluid w-100" >
             </p>
             <hgroup class="w-100 mx-auto text-center">
@@ -202,6 +179,7 @@
             </p>
             <img id="img4" class="image-left" src="media/banner.jpg" alt="nature" class="img-fluid w-100" >
             <p>
+            <br>
                 Cancer, like many illnesses, requires diagnosis and treatment that includes using needles. Far from the conventional approach, microneedles provide multitudes of benefits, such as self-administration, painless treatment, and being economically and environmentally friendly, thus, providing a safer and more effective cancer diagnosis and treatment. The benefits acquired from these microneedles remarkably improved the survival rate of cancer patients (Ganeson et al., 2023).
             <br><br>
                 Another illness that plagued many is diabetes. Health professionals urge diabetics to have regular glucose monitoring and drug insertion. The execution of these processes suggests a repetitive administration of needles. It can be the origin of the pain of the mentioned diabetics. Due to this recurring problem, the implementation of painless microneedles in diabetes management emerged as a more efficient process of drawing blood and delivering the drug. Hence, painless microneedles in diabetes treatment enable health workers to provide complex drugs to diabetics conveniently and comfortably (Uddin et al., 2018).

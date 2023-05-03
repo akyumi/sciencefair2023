@@ -1,96 +1,29 @@
+* {
+  margin: 0;
+}
+
 /*The author is not used to using bootstrap so she decided to manually code everything.*/
 body {
-  background-color: white;
-  color: #1e1e1e; 
+  background-color: white !important;
+  color: black !important; 
 }
 
 .dark-mode {
-  background-color: #1e1e1e;
-  color: white;
+  background-color: #1e1e1e !important;
+  color: white !important;
 }
 
-/* navigation bar styles - sticky and dark green background */
-header {
-  background-color: white;
-  position: sticky;
-  top: 0;
-  z-index: 9;
-}
-
-/* nav bar buttons styles */
-nav a, .btn {
-  float: left;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 5px;
-  border-radius: 20px;
-  font-family: 'Poppins', sans-serif;
-  background-color: white;
-  color: #1e1e1e;
-}
-
-/* nav bar buttons link status styles */
-nav a:link {
-  background-color: #1e1e1e;
-  color: white;
-}
-
-/* nav bar buttons hover status styles */
-nav a:hover, .btn:hover {
-  background-color: #1e1e1e;
-  color: white;
-}
-
-/* nav bar logo visited status styles */
-nav a.logo-link:hover {
-  background-color: transparent;
-  opacity: 0.85;
-}
-
-/* adjusts placement and size of logo */
-nav img {
-  height: 45px;
-  width: auto;
-  background-repeat: no-repeat;
-  background-size: contain;
-  float: left;
-}
-
-/* sets up margin and padding of logo to 0 */
-nav a.logo-link { 
-  margin:0; 
-  padding:0; 
-}
-
-/* moves nav bar from left to right */
-ul.navsec { 
-  text-align:right; 
-  margin-bottom: 0;
-}
-
-/* sets up nav bar design and placement */
-nav li {
-  /**--overflow: hidden;--**/
-  list-style: none;
-  text-align: justify;
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-nav img {
-  margin: 20px;
-}
-
-nav #theme-switcher { 
+#theme-switcher {
+  margin-top: 100px; 
   cursor: pointer;
-  width: 45px;
+  width: 50px;
   height: auto;
+  position: sticky;
+  overflow: hidden;
+  margin: 10px 10px;
 }
 
-nav #theme-switcher:hover { 
+#theme-switcher:hover { 
   opacity: 80%; 
 }
 
@@ -393,6 +326,14 @@ section {
   font-size: 15px;
 }
 
-article {
-  padding: 0px 120px;
+#bottom {
+  background-color: white;
+}
+
+.dark-mode #bottom {
+  background-color: #1e1e1e;
+}
+
+a {
+  color: black !important;
 }
