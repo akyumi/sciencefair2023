@@ -5,7 +5,7 @@
 | Criteria   | Above Standard (5pts) | Meets Standard (4pts)| Below Standard (3pts)| Non Standard (2pts) |
 |  :---:     |   :---:   |   :---:   |   :---:   |   :---:   |
 | Simplicity | Content is simple and design is easy to understand | Content is on point | Web page is somewhat busy | Web page is too busy |
-
+| Navigation | Links for navigation are clearly labeled & consistently placed, allow the reader to easily move from a point in the page to another. | Links for navigation are clearly labeled, allow the reader to easily move from a point in page to another | Links for navigation take the reader where s/he expects to go, but some needed links seem to be missing | Web page is somewhat busy | Some links do not take the reader to the sites described. A user typically feels lost.  |
 
 
 link to home page: https://smc-26.github.io/sciencefair2023/
