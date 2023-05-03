@@ -29,7 +29,7 @@ The file structure with these modifications should look like this:
       ...
   </head>
   <body>
-      <script>addNavbar();</script>
+      <script>addNavbar()</script>
       ...
   </body>
 </html>
