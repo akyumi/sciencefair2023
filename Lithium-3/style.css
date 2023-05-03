@@ -23,6 +23,13 @@ body {
     background-color: rgba(0,0,0,0.25);
 }
 
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
 #btn-container {
     background-color: var(--primary-color);
 }
