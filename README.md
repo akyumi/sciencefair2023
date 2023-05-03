@@ -2,9 +2,7 @@
 # ![alt text](https://raw.githubusercontent.com/SMC-26/sciencefair2023/deployment/x-assets/img/smc-logo.png "PSHS-SMC Campus Logo") Science Fair 2023 Website
 ## Project Rubrics
 
-| Criteria   | Above Std | Meets Std | Below Std | Non Std   |
-|  :---:     |   :---:   |   :---:   |   :---:   |   :---:   |
-|            |     5     |     4     |     3     |     2     |
+| Criteria   | Above Std (5pts) | Meets Std (4pts)| Below Std (3pts)| Non Std (2pts)   |
 |  :---:     |   :---:   |   :---:   |   :---:   |   :---:   |
 | Simplicity | Content is simple and design is easy to understand | Content is on point | Web page is somewhat busy | Web page is too busy |
 
